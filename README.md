@@ -3,6 +3,9 @@
 <p>
   <a href="https://galaxia.lunariumcoin.com/?coin=xln"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgalaxia.lunariumcoin.com%2Fapi%2Fv1%2Fcoins%2Fxln&query=%24.data.market_cap_usd&prefix=%24&label=XLN%20market%20cap&color=1f6feb&cacheSeconds=1800" alt="XLN market cap (live)"/></a>
   <a href="https://galaxia.lunariumcoin.com/?coin=xln"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgalaxia.lunariumcoin.com%2Fapi%2Fv1%2Fcoins%2Fxln&query=%24.data.price_usd&prefix=%24&label=XLN%20price&color=1f6feb&cacheSeconds=1800" alt="XLN price (live)"/></a>
+  <a href="https://galaxia.lunariumcoin.com/?coin=xlnft"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgalaxia.lunariumcoin.com%2Fapi%2Fv1%2Fcoins%2Fxlnft&query=%24.data.market_cap_usd&prefix=%24&label=XLNFT%20market%20cap&color=d4a017&cacheSeconds=1800" alt="XLNFT market cap (live)"/></a>
+  <a href="https://galaxia.lunariumcoin.com/?coin=xlnft"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgalaxia.lunariumcoin.com%2Fapi%2Fv1%2Fcoins%2Fxlnft&query=%24.data.price_usd&prefix=%24&label=XLNFT%20price&color=d4a017&cacheSeconds=1800" alt="XLNFT price (live)"/></a>
+  <br/><sub>Live data from the GaláxiaLunarium public API</sub>
 </p>
 
 The Lunarium market aggregator, live at [galaxia.lunariumcoin.com](https://galaxia.lunariumcoin.com): prices, markets and market caps for LunariumCoin (XLN), XLNFT and other masternode, mining, stake and token projects, with public on-chain audits of their issuance.
