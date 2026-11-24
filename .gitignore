@@ -1,0 +1,8 @@
+# Server state and secrets: accounts, API keys, orders, sessions, secret.key, mail.json, audit state
+data/
+node_modules/
+tmp/
+*.log
+.env*
+*.pre-*
+*.bak*

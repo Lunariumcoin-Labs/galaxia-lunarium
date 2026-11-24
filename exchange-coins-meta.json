@@ -1,0 +1,2074 @@
+{
+ "note": "Tabs of each coin traded on Qutrade and Gatevia, read from the official source code on GitHub: masternode = masternode code present; stake = proof-of-stake code present; mining = no proof-of-stake, or hybrid with no end of proof-of-work in the code; token = no blockchain of its own. Coins with no node repository keep the CoinPaprika classification (evidence.source). A coin can be in several tabs. Coins missing here are not shown.",
+ "updated_at": "2026-10-01",
+ "coins": {
+  "2X2": {
+   "cp": "2x2-2x2",
+   "name": "2x2Coin",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://2x2coin.com",
+   "explorer": "https://newexplorer.2x2coin.com",
+   "source_code": "https://github.com/2x2devcode/2x2Coin",
+   "evidence": {
+    "repo": "https://github.com/2x2devcode/2x2Coin",
+    "branch": "main",
+    "masternode_files": [],
+    "masternode_file_count": 0,
+    "stake_files": [
+     "src/pos.cpp",
+     "src/pos.h"
+    ],
+    "stake_in_main": true,
+    "last_pow_block": 110000,
+    "repo_updated": "2026-09-24",
+    "gatevia_list": "PoS + PoW"
+   }
+  },
+  "ALIAS": {
+   "cp": "alias-alias",
+   "name": "Alias",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://alias.cash/",
+   "explorer": "https://chainz.cryptoid.info/alias/",
+   "source_code": "https://github.com/aliascash/alias-wallet",
+   "evidence": {
+    "repo": "https://github.com/aliascash/alias-wallet",
+    "masternode_files": [],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": 2016
+   }
+  },
+  "BGAT": {
+   "cp": "bgat-bga-token",
+   "name": "BGA Token",
+   "categories": [
+    "token"
+   ],
+   "category": "token",
+   "website": "https://www.blockgatorsarmy.info/",
+   "explorer": "http://dev.pywaves.org/assets/BZzqCsbnArPgnTAvAHchPeauWpB1T73Jq6zzm5ejaafR",
+   "source_code": null,
+   "evidence": {
+    "rule": "sem blockchain própria (token)",
+    "source": "coinpaprika"
+   }
+  },
+  "BNB": {
+   "cp": "bnb-binance-coin",
+   "name": "BNB",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://www.binance.com/",
+   "explorer": "https://bscscan.com/",
+   "source_code": "https://github.com/bnb-chain/bsc",
+   "evidence": {
+    "rule": "Proof of Staked Authority (Parlia)"
+   }
+  },
+  "BOXCOIN": {
+   "cp": "boxcoin-boxcoin",
+   "name": "BoxCoin",
+   "categories": [
+    "token"
+   ],
+   "category": "token",
+   "website": "https://boxcoin.vip/",
+   "explorer": "https://wavesexplorer.com/",
+   "source_code": null,
+   "evidence": {
+    "rule": "sem blockchain própria (token)",
+    "source": "coinpaprika"
+   }
+  },
+  "BTCS": {
+   "cp": "btcs-bitcoin-silver1",
+   "name": "Bitcoin Silver",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://www.bitcoinsilver.top/",
+   "explorer": "http://explorer.btcs.pools4mining.com:3001/",
+   "source_code": "https://github.com/bitcoin-silver/core",
+   "evidence": {
+    "repo": "https://github.com/bitcoin-silver/core",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "BTC": {
+   "cp": "btc-bitcoin",
+   "name": "Bitcoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://bitcoin.org",
+   "explorer": "https://blockchair.com/bitcoin/?from=coinpaprika",
+   "source_code": "https://github.com/bitcoin/bitcoin",
+   "evidence": {
+    "repo": "https://github.com/bitcoin/bitcoin",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "BTGS": {
+   "cp": "btgs-bitcoingold",
+   "name": "BitcoinGold",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://btgscoin.site",
+   "explorer": "https://explore.bitcoingold.site",
+   "source_code": "https://github.com/BTGSCOINDEV/BTGS",
+   "evidence": {
+    "repo": "https://github.com/BTGSCOINDEV/BTGS",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "BTG": {
+   "cp": "btg-bitcoin-gold",
+   "name": "Bitcoin Gold",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://btgofficial.org/",
+   "explorer": "https://btgexplorer.com/",
+   "source_code": "https://github.com/BTCGPU/BTCGPU",
+   "evidence": {
+    "repo": "https://github.com/BTCGPU/BTCGPU",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "CHESS": {
+   "cp": "chess-chesscoin",
+   "name": "ChessCoin 0.32%",
+   "categories": [
+    "stake",
+    "mining"
+   ],
+   "category": "stake",
+   "website": "https://chesscoin032.github.io/",
+   "explorer": "https://chainz.cryptoid.info/chess/",
+   "source_code": "https://github.com/ChessCoin032/ChessCoin032-Core-x64",
+   "evidence": {
+    "repo": "https://github.com/ChessCoin032/ChessCoin032-Core-x64",
+    "branch": "main",
+    "masternode_files": [],
+    "masternode_file_count": 0,
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": true,
+    "last_pow_block": null,
+    "repo_updated": "2026-09-23"
+   }
+  },
+  "CURE": {
+   "cp": "cure-curecoin",
+   "name": "CureCoin",
+   "categories": [
+    "stake",
+    "mining"
+   ],
+   "category": "stake",
+   "website": "https://curecoin.net/",
+   "explorer": "https://chainz.cryptoid.info/cure/",
+   "source_code": "https://github.com/cygnusxi/CurecoinSource",
+   "evidence": {
+    "repo": "https://github.com/cygnusxi/CurecoinSource",
+    "masternode_files": [],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "DASH": {
+   "cp": "dash-dash",
+   "name": "Dash",
+   "categories": [
+    "masternode",
+    "mining"
+   ],
+   "category": "masternode",
+   "website": "https://www.dash.org/",
+   "explorer": "https://explorer.dash.org",
+   "source_code": "https://github.com/dashpay/dash",
+   "evidence": {
+    "repo": "https://github.com/dashpay/dash",
+    "masternode_files": [
+     "src/active/masternode.cpp",
+     "src/active/masternode.h"
+    ],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "DEM": {
+   "cp": "dem-deutsche-emark",
+   "name": "Deutsche eMark",
+   "categories": [
+    "stake",
+    "mining"
+   ],
+   "category": "stake",
+   "website": "https://deutsche-emark.org/",
+   "explorer": "https://chainz.cryptoid.info/dem/",
+   "source_code": "https://github.com/emarkproject/eMark",
+   "evidence": {
+    "repo": "https://github.com/emarkproject/eMark",
+    "masternode_files": [],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "DFCN": {
+   "cp": "dfcn-defcon",
+   "name": "DeFCoN coin",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://www.dfcn.io/",
+   "explorer": "https://chainz.cryptoid.info/defcon/",
+   "source_code": "https://github.com/defcon-project/defcon",
+   "evidence": {
+    "repo": "https://github.com/defcon-project/defcon",
+    "masternode_files": [
+     "src/evo/assetlocktx.cpp",
+     "src/evo/assetlocktx.h"
+    ],
+    "stake_files": [
+     "src/pos/kernel.cpp",
+     "src/pos/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "DOGE": {
+   "cp": "doge-dogecoin",
+   "name": "Dogecoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://dogecoin.com/",
+   "explorer": "https://blockchair.com/dogecoin/?from=coinpaprika",
+   "source_code": "https://github.com/dogecoin/dogecoin",
+   "evidence": {
+    "repo": "https://github.com/dogecoin/dogecoin",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "EAC": {
+   "cp": "eac-earthcoin",
+   "name": "Earthcoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "http://www.deveac.com/",
+   "explorer": "https://chainz.cryptoid.info/eac/",
+   "source_code": "https://github.com/Sandokaaan/EarthCoin2019",
+   "evidence": {
+    "repo": "https://github.com/Sandokaaan/EarthCoin2019",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "ENRG": {
+   "cp": "enrg-energycoin",
+   "name": "EnergyCoin",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://www.energycoinfoundation.org/en/",
+   "explorer": "https://chainz.cryptoid.info/enrg/",
+   "source_code": "https://github.com/EnergyCoin/energycoin",
+   "evidence": {
+    "repo": "https://github.com/EnergyCoin/energycoin",
+    "masternode_files": [],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "ETH": {
+   "cp": "eth-ethereum",
+   "name": "Ethereum",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://www.ethereum.org/",
+   "explorer": "https://etherscan.io/",
+   "source_code": "https://github.com/ethereum/go-ethereum",
+   "evidence": {
+    "rule": "Proof of Stake (Ethereum, desde o Merge)"
+   }
+  },
+  "FBC": {
+   "cp": "fbc-fibercoin",
+   "name": "Fibercoin",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://fibercoin.info/",
+   "explorer": "https://explorer.fibercoin.info/",
+   "source_code": "https://github.com/didarmetu/Fibercoin",
+   "evidence": {
+    "repo": "https://github.com/didarmetu/Fibercoin",
+    "masternode_files": [
+     "src/activemasternode.cpp",
+     "src/activemasternode.h"
+    ],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": 200
+   }
+  },
+  "FIRO": {
+   "cp": "firo-firo",
+   "name": "Firo",
+   "categories": [
+    "masternode",
+    "mining"
+   ],
+   "category": "masternode",
+   "website": "https://firo.org/",
+   "explorer": "https://insight.zcoin.io/",
+   "source_code": "https://github.com/firoorg/firo",
+   "evidence": {
+    "repo": "https://github.com/firoorg/firo",
+    "masternode_files": [
+     "src/activemasternode.cpp",
+     "src/activemasternode.h"
+    ],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "FLUX": {
+   "cp": "zel-zelcash",
+   "name": "Flux",
+   "categories": [
+    "masternode",
+    "mining"
+   ],
+   "category": "masternode",
+   "website": "https://runonflux.io/",
+   "explorer": "https://explorer.runonflux.io/",
+   "source_code": "https://github.com/RunOnFlux/fluxd",
+   "evidence": {
+    "repo": "https://github.com/RunOnFlux/fluxd",
+    "masternode_files": [
+     "src/fluxnode",
+     "src/fluxnode/activefluxnode.cpp"
+    ],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "FREED": {
+   "cp": "freed-freedomcoin",
+   "name": "FreedomCoin",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://freedomcoin.global/",
+   "explorer": "https://chainz.cryptoid.info/freed/#",
+   "source_code": "https://github.com/FreedomCoin-Project/FreedomCoin-Core",
+   "evidence": {
+    "repo": "https://github.com/FreedomCoin-Project/FreedomCoin-Core",
+    "masternode_files": [
+     "src/evo/deterministicmns.cpp",
+     "src/evo/deterministicmns.h"
+    ],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "GCV": {
+   "cp": "gcv-golf-cart-victorias",
+   "name": "Golf Cart Victorias",
+   "categories": [
+    "token"
+   ],
+   "category": "token",
+   "website": "https://gnc01.imweb.me/",
+   "explorer": "https://polygonscan.com/token/0x81683282e1329eAb5004657944A14Af6E7385226",
+   "source_code": null,
+   "evidence": {
+    "rule": "sem blockchain própria (token)",
+    "source": "coinpaprika"
+   }
+  },
+  "GENIX": {
+   "cp": "genix-genix",
+   "name": "Genix",
+   "categories": [
+    "token"
+   ],
+   "category": "token",
+   "website": "http://www.genix.cx/",
+   "explorer": "https://bscscan.com/token/0x4476d4f30a5e56a825620269dbe6fdc060429ff0",
+   "source_code": null,
+   "evidence": {
+    "rule": "Qutrade: token BEP-20",
+    "source": "Qutrade coin info (BNB bep20, contract 0x4476d4F30a5e56a825620269DBE6FdC060429fF0); the old native chain's explorer is offline"
+   }
+  },
+  "GHOST": {
+   "cp": "ghost-ghost",
+   "name": "Ghost",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://www.ghostbyjohnmcafee.com/",
+   "explorer": "https://explorer.myghost.org",
+   "source_code": "https://github.com/ghost-coin/ghost-core",
+   "evidence": {
+    "repo": "https://github.com/ghost-coin/ghost-core",
+    "masternode_files": [],
+    "stake_files": [
+     "src/pos/diffalgo.cpp",
+     "src/pos/diffalgo.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "KRB": {
+   "cp": "krb-karbo",
+   "name": "Karbo",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "http://karbo.org/",
+   "explorer": "https://explorer.karbo.org",
+   "source_code": "https://github.com/Karbovanets/karbowanecwallet",
+   "evidence": {
+    "repo": "https://github.com/Karbovanets/karbowanecwallet",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "LANA": {
+   "cp": "lana-lanacoin",
+   "name": "LanaCoin",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://lanacoin.com/",
+   "explorer": "https://chainz.cryptoid.info/lana/",
+   "source_code": "https://github.com/LanaCoin/lanacoin",
+   "evidence": {
+    "repo": "https://github.com/LanaCoin/lanacoin",
+    "masternode_files": [],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": 750000
+   }
+  },
+  "LTC": {
+   "cp": "ltc-litecoin",
+   "name": "Litecoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://litecoin.org/",
+   "explorer": "https://ltc.tokenview.io",
+   "source_code": "https://github.com/litecoin-project/litecoin",
+   "evidence": {
+    "repo": "https://github.com/litecoin-project/litecoin",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "MARIA": {
+   "cp": "maria-maria",
+   "name": "Maria Coin",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://www.mariacoin.com",
+   "explorer": "https://explorer.mariacoin.com",
+   "source_code": "https://github.com/hostmaria/mariacoin",
+   "evidence": {
+    "repo": "https://github.com/hostmaria/mariacoin",
+    "masternode_files": [
+     "src/activemasternode.cpp",
+     "src/activemasternode.h"
+    ],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "MATIC": {
+   "cp": "matic-polygon",
+   "name": "Polygon",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://polygon.technology/",
+   "explorer": "https://polygonscan.com/",
+   "source_code": "https://github.com/0xPolygon/bor",
+   "evidence": {
+    "rule": "Qutrade: MATIC nativo da rede Polygon (proof-of-stake)",
+    "repo": "https://github.com/0xPolygon/bor"
+   }
+  },
+  "MEWC": {
+   "cp": "mewc-meowcoin",
+   "name": "Meowcoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://www.mewccrypto.com/",
+   "explorer": "http://explorer.meowcoin.lol",
+   "source_code": "https://github.com/Meowcoin-Foundation/Meowcoin",
+   "evidence": {
+    "repo": "https://github.com/Meowcoin-Foundation/Meowcoin",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "MON": {
+   "cp": "mon-moneybyte",
+   "name": "MoneyByte",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://www.moneybyte.org/",
+   "explorer": "https://moneybyte-explorer.org/",
+   "source_code": "https://github.com/MoneyByte/MoneyByteBlockchain",
+   "evidence": {
+    "repo": "https://github.com/MoneyByte/MoneyByteBlockchain",
+    "branch": "master",
+    "masternode_files": [
+     "src/activemasternode.cpp",
+     "src/activemasternode.h",
+     "src/masternode-payments.cpp"
+    ],
+    "masternode_file_count": 14,
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": true,
+    "last_pow_block": null,
+    "repo_updated": "2024-01-17"
+   }
+  },
+  "MTBC": {
+   "cp": "mtbc-mateablecoin",
+   "name": "MateableCoin",
+   "categories": [
+    "stake",
+    "mining"
+   ],
+   "category": "stake",
+   "website": "https://coin.mateable.com/",
+   "explorer": "https://explorer.mateable.com/",
+   "source_code": "https://github.com/mateable/mateablecoin-24.x",
+   "evidence": {
+    "repo": "https://github.com/mateable/mateablecoin-24.x",
+    "masternode_files": [],
+    "stake_files": [
+     "src/pos/manager.cpp",
+     "src/pos/manager.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "MZS": {
+   "cp": "mzs-member-zone-solutions",
+   "name": "Member Zone Solutions",
+   "categories": [
+    "token"
+   ],
+   "category": "token",
+   "website": "https://mzs-c.imweb.me/",
+   "explorer": "https://polygonscan.com/token/0x1aDb749FFDA33251e1503672951b5A4234518Fa7",
+   "source_code": null,
+   "evidence": {
+    "rule": "sem blockchain própria (token)",
+    "source": "coinpaprika"
+   }
+  },
+  "N808": {
+   "cp": "n808-new808coin",
+   "name": "New808coin",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://new808coin.com/",
+   "explorer": "https://explorer.new808coin.com",
+   "source_code": "https://github.com/didarmetu/New808coin",
+   "evidence": {
+    "repo": "https://github.com/didarmetu/New808coin",
+    "masternode_files": [
+     "src/activemasternode.cpp",
+     "src/activemasternode.h"
+    ],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": 808
+   }
+  },
+  "NEXO": {
+   "cp": "nexo-nexo",
+   "name": "Nexo",
+   "categories": [
+    "token"
+   ],
+   "category": "token",
+   "website": "https://nexo.io/",
+   "explorer": "https://etherscan.io/token/0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206",
+   "source_code": null,
+   "evidence": {
+    "rule": "sem blockchain própria (token)",
+    "source": "coinpaprika"
+   }
+  },
+  "NFT": {
+   "cp": "nft-apenft",
+   "name": "APENFT",
+   "categories": [
+    "token"
+   ],
+   "category": "token",
+   "website": "https://www.apenft.org/",
+   "explorer": "https://etherscan.io/token/0xEF40B859D21e4d566a3d713e756197c021BffaAa",
+   "source_code": null,
+   "evidence": {
+    "rule": "sem blockchain própria (token)",
+    "source": "coinpaprika"
+   }
+  },
+  "NUX": {
+   "cp": "nux-nusacoin",
+   "name": "Nusacoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://nusacoin.org",
+   "explorer": "https://chain.nusacoin.org",
+   "source_code": "https://github.com/TaobotX11/nusacoin",
+   "evidence": {
+    "repo": "https://github.com/TaobotX11/nusacoin",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "PAC": {
+   "cp": "pac-paccoin",
+   "name": "PAC Protocol coin",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://www.pacprotocol.com/",
+   "explorer": "http://usa.pacblockexplorer.com:3002/",
+   "source_code": "https://github.com/pacprotocol/pacprotocol",
+   "evidence": {
+    "repo": "https://github.com/pacprotocol/pacprotocol",
+    "masternode_files": [
+     "src/evo/cbtx.cpp",
+     "src/evo/cbtx.h"
+    ],
+    "stake_files": [
+     "src/pos/blocksigner.cpp",
+     "src/pos/blocksigner.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": 329999
+   }
+  },
+  "PAK": {
+   "cp": "pak-pakcoin",
+   "name": "Pakcoin",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://www.pakcoin.io/",
+   "explorer": "https://chainz.cryptoid.info/pak/",
+   "source_code": "https://github.com/Pakcoin-project/pakcoin",
+   "evidence": {
+    "repo": "https://github.com/Pakcoin-project/pakcoin",
+    "masternode_files": [],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": 303
+   }
+  },
+  "PIRATE": {
+   "cp": "pirate-piratecash",
+   "name": "PirateCash",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://piratecash.net",
+   "explorer": "https://piratecash.info/",
+   "source_code": "https://github.com/piratecash/piratecash",
+   "evidence": {
+    "repo": "https://github.com/piratecash/piratecash",
+    "masternode_files": [
+     "src/active/masternode.cpp",
+     "src/active/masternode.h"
+    ],
+    "stake_files": [],
+    "stake_in_main": true,
+    "last_pow_block": 100000
+   }
+  },
+  "PIVX": {
+   "cp": "pivx-pivx",
+   "name": "PIVX",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://pivx.org/",
+   "explorer": "http://pivx.presstab.pw",
+   "source_code": "https://github.com/PIVX-Project/PIVX",
+   "evidence": {
+    "repo": "https://github.com/PIVX-Project/PIVX",
+    "masternode_files": [
+     "src/activemasternode.cpp",
+     "src/activemasternode.h"
+    ],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "RAT": {
+   "cp": "rat-ratcoin",
+   "name": "Ratcoin",
+   "categories": [
+    "stake",
+    "mining"
+   ],
+   "category": "stake",
+   "website": "https://ratcoin.net/",
+   "explorer": "https://explorer.ratcoin.net/",
+   "source_code": "https://github.com/RatCoinCommunity/RatCoin-3.0",
+   "evidence": {
+    "repo": "https://github.com/RatCoinCommunity/RatCoin-3.0",
+    "masternode_files": [],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "RDD": {
+   "cp": "rdd-reddcoin",
+   "name": "Reddcoin",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://reddcoin.com/",
+   "explorer": "https://blockbook.reddcoin.com",
+   "source_code": "https://github.com/reddcoin-project/reddcoin",
+   "evidence": {
+    "repo": "https://github.com/reddcoin-project/reddcoin",
+    "masternode_files": [],
+    "stake_files": [
+     "src/pos/kernel.cpp",
+     "src/pos/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "RICK": {
+   "cp": "rick-infinite-ricks",
+   "name": "Infinite Ricks",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://infinitericks.com/",
+   "explorer": "https://explorer.infinitericks.com/",
+   "source_code": "https://github.com/Coindev400/InfiniteRicks",
+   "evidence": {
+    "repo": "https://github.com/Coindev400/InfiniteRicks",
+    "branch": "master",
+    "masternode_files": [],
+    "masternode_file_count": 0,
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": true,
+    "last_pow_block": null,
+    "repo_updated": "2025-12-04"
+   }
+  },
+  "S11": {
+   "cp": "s11-qutrate-token",
+   "name": "QTShares",
+   "categories": [
+    "token"
+   ],
+   "category": "token",
+   "website": "https://qutrade.io/ru/?qtshares",
+   "explorer": "https://bscscan.com/token/0x660c3b98310b48c2f6eceff1cc39265a82c67eb6",
+   "source_code": null,
+   "evidence": {
+    "rule": "token BEP-20 da Qutrade (QTShares)"
+   }
+  },
+  "SCC": {
+   "cp": "scc-stakecubecoin",
+   "name": "StakeCubeCoin",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://stakecube.net/",
+   "explorer": "http://45.76.24.216:3001",
+   "source_code": "https://github.com/stakecube/stakecubecoin-archive",
+   "evidence": {
+    "repo": "https://github.com/stakecube/stakecubecoin-archive",
+    "masternode_files": [
+     "src/masternode",
+     "src/masternode/activemasternode.cpp"
+    ],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": 200
+   }
+  },
+  "SKYR": {
+   "cp": "skyr-skynet-research-coin-skyrcoin",
+   "name": "Skynet Research",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://skynet-coin.com",
+   "explorer": "http://150.241.115.196",
+   "source_code": "https://github.com/SkynetResearchProject/Skyrcoin",
+   "evidence": {
+    "repo": "https://github.com/SkynetResearchProject/Skyrcoin",
+    "branch": "main",
+    "masternode_files": [
+     "src/activemasternode.cpp",
+     "src/activemasternode.h",
+     "src/activemasternodeconfig.cpp"
+    ],
+    "masternode_file_count": 27,
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h",
+     "src/legacy/stakemodifier.cpp"
+    ],
+    "stake_in_main": true,
+    "last_pow_block": null,
+    "repo_updated": "2026-03-05"
+   }
+  },
+  "SONE": {
+   "cp": "sone-sbercoinone",
+   "name": "SbercoinOne",
+   "categories": [
+    "token"
+   ],
+   "category": "token",
+   "website": "https://sbercoin.one/",
+   "explorer": "https://etherscan.io/token/0xc55891e8b246417ac0ff87c292a8f34819b2e29b",
+   "source_code": null,
+   "evidence": {
+    "rule": "sem blockchain própria (token)",
+    "source": "coinpaprika"
+   }
+  },
+  "SPITZ": {
+   "cp": "spitz-spitzcoin",
+   "name": "SpitzCoin",
+   "categories": [
+    "token"
+   ],
+   "category": "token",
+   "website": "https://spitzcoin.xyz/",
+   "explorer": "https://bscscan.com/token/0x5d5152338d38BF0E107C6060a13944D40dEFd59B",
+   "source_code": null,
+   "evidence": {
+    "rule": "sem blockchain própria (token)",
+    "source": "coinpaprika"
+   }
+  },
+  "TLR": {
+   "cp": "tlr-taler",
+   "name": "Taler",
+   "categories": [
+    "stake",
+    "mining"
+   ],
+   "category": "stake",
+   "website": "https://taler.tech",
+   "explorer": "https://explorer.taler.tech",
+   "source_code": "https://github.com/cryptadev/taler",
+   "evidence": {
+    "repo": "https://github.com/cryptadev/taler",
+    "branch": "master",
+    "masternode_files": [],
+    "masternode_file_count": 0,
+    "stake_files": [],
+    "stake_in_main": true,
+    "last_pow_block": null,
+    "repo_updated": "2026-03-07"
+   }
+  },
+  "TRX": {
+   "cp": "trx-tron",
+   "name": "TRON",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://tron.network/",
+   "explorer": "https://tronscan.org/",
+   "source_code": "https://github.com/tronprotocol/java-tron",
+   "evidence": {
+    "rule": "Delegated Proof of Stake"
+   }
+  },
+  "UFO": {
+   "cp": "ufo-uniform-fiscal-object",
+   "name": "UFOCoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://ufobject.com/",
+   "explorer": "https://chainz.cryptoid.info/ufo/",
+   "source_code": "https://github.com/fiscalobject/ufo",
+   "evidence": {
+    "repo": "https://github.com/fiscalobject/ufo",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "VQR": {
+   "cp": "vqr-virtual-quest-room-coin",
+   "name": "Virtual Quest Room",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://vqr.quest/",
+   "explorer": "https://masternode.vqr.quest",
+   "source_code": "https://github.com/cryptadev/vqr",
+   "evidence": {
+    "repo": "https://github.com/cryptadev/vqr",
+    "masternode_files": [
+     "src/masternode.cpp",
+     "src/masternode.h"
+    ],
+    "stake_files": [],
+    "stake_in_main": true,
+    "last_pow_block": null
+   }
+  },
+  "WAVES": {
+   "cp": "waves-waves",
+   "name": "Waves",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://wavesplatform.com/",
+   "explorer": "https://wavesdesk.com/",
+   "source_code": "https://github.com/wavesplatform/Waves",
+   "evidence": {
+    "rule": "Leased Proof of Stake"
+   }
+  },
+  "WJK": {
+   "cp": "wjk-wojakcoin",
+   "name": "WojakCoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://wojakcoin2017.xyz/",
+   "explorer": "https://explorer.wojakcoin2017.xyz",
+   "source_code": "https://github.com/WojakCoinProj/wojakcore",
+   "evidence": {
+    "repo": "https://github.com/WojakCoinProj/wojakcore",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "XLN": {
+   "cp": "xln-lunarium-coin",
+   "name": "Lunarium",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://www.lunariumcoin.com/\r\n",
+   "explorer": "http://explorerxln.com",
+   "source_code": "https://github.com/Lunariumcoin-Labs/LunariumCoin",
+   "evidence": {
+    "repo": "https://github.com/Lunariumcoin-Labs/LunariumCoin",
+    "masternode_files": [
+     "src/activemasternode.cpp",
+     "src/activemasternode.h"
+    ],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoS"
+   }
+  },
+  "AUR": {
+   "cp": "aur-auroracoin",
+   "name": "Auroracoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://en.auroracoin.is/",
+   "explorer": "https://chainz.cryptoid.info/aur/",
+   "source_code": "https://github.com/aurarad/Auroracoin",
+   "evidence": {
+    "repo": "https://github.com/aurarad/Auroracoin",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "AURE": {
+   "cp": "aur-aureus-1",
+   "name": "aureus",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://aureuscoin.site",
+   "explorer": "https://explore.aureuscoin.site",
+   "source_code": "https://github.com/sipherapex/aureus-core",
+   "evidence": {
+    "repo": "https://github.com/sipherapex/aureus-core",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "BCH2": {
+   "cp": "bch2-bitcoin-cash-ii",
+   "name": "Bitcoin Cash II",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://bch2.org/",
+   "explorer": "https://explorer.bch2.org/",
+   "source_code": "https://github.com/BitcoincashII/bitcoincashII-core",
+   "evidence": {
+    "repo": "https://github.com/BitcoincashII/bitcoincashII-core",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "DGB": {
+   "cp": "dgb-digibyte",
+   "name": "DigiByte",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://www.dgbwiki.com",
+   "explorer": "https://dgb.tokenview.io",
+   "source_code": "https://github.com/DigiByte-Core/digibyte",
+   "evidence": {
+    "repo": "https://github.com/DigiByte-Core/digibyte",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "FSC": {
+   "cp": "fsc-fsociety",
+   "name": "FSOCIETY",
+   "categories": [
+    "masternode",
+    "mining"
+   ],
+   "category": "masternode",
+   "website": "https://fsocietychain.com/",
+   "explorer": "https://explorer.fsocietychain.com/",
+   "source_code": "https://github.com/fsocietychain/fsociety",
+   "evidence": {
+    "repo": "https://github.com/fsocietychain/fsociety",
+    "masternode_files": [
+     "src/evo/cbtx.cpp",
+     "src/evo/cbtx.h"
+    ],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "HRC": {
+   "cp": "hrc-hypercoin",
+   "name": "Hypercoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://hypercoin.network",
+   "explorer": "https://explorer.hypercoin.network",
+   "source_code": "https://github.com/Hypercoin-PRJ/hypercoin",
+   "evidence": {
+    "repo": "https://github.com/Hypercoin-PRJ/hypercoin",
+    "branch": "master",
+    "masternode_files": [],
+    "masternode_file_count": 0,
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "repo_updated": "2026-04-30",
+    "gatevia_list": "PoW"
+   }
+  },
+  "MNT": {
+   "cp": "mnt-mundoteam",
+   "name": "Mundoteam",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://mundoteamexplorer.ath.cx/",
+   "explorer": "http://178.16.140.157:3001/",
+   "source_code": "https://github.com/Mundoteam/MundoTeam_Core",
+   "evidence": {
+    "repo": "https://github.com/Mundoteam/MundoTeam_Core",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "MYDOGE": {
+   "cp": "mydoge-mydogecoin",
+   "name": "Mydogecoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://mydogecoin.fun",
+   "explorer": "https://explorer.mydogecoin.fun",
+   "source_code": "https://github.com/mydogecoin-project/mydogecoin",
+   "evidence": {
+    "repo": "https://github.com/mydogecoin-project/mydogecoin",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "BC3": {
+   "cp": "bc3-bitcoin-iii",
+   "name": "BitcoinIII",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://bc3.network",
+   "explorer": "https://bc3mempool.codefalcon.dev/",
+   "source_code": "https://github.com/PinkStarrySky/BitcoinIII-Core",
+   "evidence": {
+    "repo": "https://github.com/PinkStarrySky/BitcoinIII-Core",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "DINGO": {
+   "cp": "dingo-dingocoin",
+   "name": "Dingocoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://dingocoin.com/",
+   "explorer": "https://explorer.dingocoin.com/",
+   "source_code": "https://github.com/dingocoin/dingocoin",
+   "evidence": {
+    "repo": "https://github.com/dingocoin/dingocoin",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "EFL": {
+   "cp": "efl-e-gulden",
+   "name": "e-Gulden",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://electronic-gulden-foundation.gitlab.io/",
+   "explorer": "https://chainz.cryptoid.info/efl/",
+   "source_code": "https://github.com/Electronic-Gulden-Foundation/egulden",
+   "evidence": {
+    "repo": "https://github.com/Electronic-Gulden-Foundation/egulden",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "FXTC": {
+   "cp": "fxtc-fixed-trade-coin",
+   "name": "Fixed Trade Coin",
+   "categories": [
+    "masternode",
+    "mining"
+   ],
+   "category": "masternode",
+   "website": "https://fixedtradecoin.org/",
+   "explorer": "https://explorer.fixedtradecoin.org/",
+   "source_code": "https://github.com/fxtc/fxtc",
+   "evidence": {
+    "repo": "https://github.com/fxtc/fxtc",
+    "masternode_files": [
+     "src/activemasternode.cpp",
+     "src/activemasternode.h"
+    ],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "NAH": {
+   "cp": "nah-strayacoin",
+   "name": "Strayacoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://strayacoin.com/",
+   "explorer": "https://straya.network/",
+   "source_code": "https://github.com/StrayaCoin/StrayaCoin-Core",
+   "evidence": {
+    "repo": "https://github.com/StrayaCoin/StrayaCoin-Core",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null
+   }
+  },
+  "WW": {
+   "cp": "ww-waya-wolf-coin",
+   "name": "Waya Wolf Coin",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://wayawolfcoin.com/",
+   "explorer": "http://50.245.85.76:3005/",
+   "source_code": "https://github.com/Waya-Wolf/WWC3",
+   "evidence": {
+    "repo": "https://github.com/Waya-Wolf/WWC3",
+    "masternode_files": [],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": 0
+   }
+  },
+  "BCH": {
+   "cp": "bch-bitcoin-cash",
+   "name": "Bitcoin Cash",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://bch.info/",
+   "explorer": "https://www.blockchain.com/explorer?view=bch",
+   "source_code": "https://github.com/bitcoin-cash-node/bitcoin-cash-node",
+   "evidence": {
+    "repo": "https://github.com/bitcoin-cash-node/bitcoin-cash-node",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "ROD": {
+   "cp": "rod-spacexpanse",
+   "name": "SpaceXpanse",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://rod.spacexpanse.org/",
+   "explorer": "http://explorer1.rod.spacexpanse.org:3001/",
+   "source_code": "https://github.com/SpaceXpanse/rod-core-wallet",
+   "evidence": {
+    "repo": "https://github.com/SpaceXpanse/rod-core-wallet",
+    "branch": "0.6.8.10",
+    "masternode_files": [],
+    "masternode_file_count": 0,
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "repo_updated": "2026-07-04",
+    "gatevia_list": "PoW"
+   }
+  },
+  "SMT": {
+   "cp": "smt-smartiecoin",
+   "name": "SmartieCoin",
+   "categories": [
+    "masternode",
+    "mining"
+   ],
+   "category": "masternode",
+   "website": "https://smartiecoin.com/",
+   "explorer": "https://explorer.smartiecoin.com",
+   "source_code": "https://github.com/SmartiesCoin/Smartiecoin",
+   "evidence": {
+    "repo": "https://github.com/SmartiesCoin/Smartiecoin",
+    "masternode_files": [
+     "src/active/masternode.cpp",
+     "src/active/masternode.h"
+    ],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "SOTER": {
+   "cp": "soter-soteria",
+   "name": "Soteria",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://soteria-network.online/",
+   "explorer": "https://explorer.soteria-network.online/",
+   "source_code": "https://github.com/Soteria-Network/Soteria",
+   "evidence": {
+    "repo": "https://github.com/Soteria-Network/Soteria",
+    "branch": "master",
+    "masternode_files": [],
+    "masternode_file_count": 0,
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "repo_updated": "2026-09-15",
+    "gatevia_list": "PoW"
+   }
+  },
+  "SWAMP": {
+   "cp": "swamp-swamp-coin",
+   "name": "Swamp Coin",
+   "categories": [
+    "masternode",
+    "mining"
+   ],
+   "category": "masternode",
+   "website": "https://swampcoin.club",
+   "explorer": "http://explorer.swampcoin.tech",
+   "source_code": "https://github.com/swampcoin/swamp",
+   "evidence": {
+    "repo": "https://github.com/swampcoin/swamp",
+    "masternode_files": [
+     "src/activemasternode.cpp",
+     "src/activemasternode.h"
+    ],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "VECO": {
+   "cp": "veco-veco",
+   "name": "Veco",
+   "categories": [
+    "masternode",
+    "mining"
+   ],
+   "category": "masternode",
+   "website": "https://vecocoin.com",
+   "explorer": "https://explorer2.vecocoin.com",
+   "source_code": "https://github.com/vecopay/veco",
+   "evidence": {
+    "repo": "https://github.com/vecopay/veco",
+    "masternode_files": [
+     "src/activemasternode.cpp",
+     "src/activemasternode.h"
+    ],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "TAJ": {
+   "cp": "taj-tajcoin",
+   "name": "TajCoin",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://tajcoin.tech/",
+   "explorer": "https://chainz.cryptoid.info/taj/",
+   "source_code": "https://github.com/Taj-Coin/tajcoin",
+   "evidence": {
+    "repo": "https://github.com/Taj-Coin/tajcoin",
+    "masternode_files": [],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": 900000
+   }
+  },
+  "SORA": {
+   "cp": "sora-sorachancoin",
+   "name": "SorachanCoin",
+   "categories": [
+    "masternode",
+    "stake",
+    "mining"
+   ],
+   "category": "masternode",
+   "website": "https://www.junkhdd.com/",
+   "explorer": "https://www.junkhdd.com:7350/",
+   "source_code": "https://github.com/FromHDDtoSSD/SorachanCoin-qt",
+   "evidence": {
+    "repo": "https://github.com/FromHDDtoSSD/SorachanCoin-qt",
+    "masternode_files": [
+     "src/masternode",
+     "src/masternode/masternode.cpp"
+    ],
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoS + PoW"
+   }
+  },
+  "XBC": {
+   "cp": "xbc-bitcoin-plus",
+   "name": "Bitcoin Plus",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://www.bitcoinplus.org",
+   "explorer": "https://prohashing.com/explorer/BitcoinPlus/",
+   "source_code": "https://github.com/bitcoinplusorg/xbcwalletsource",
+   "evidence": {
+    "repo": "https://github.com/bitcoinplusorg/xbcwalletsource",
+    "branch": "master",
+    "masternode_files": [],
+    "masternode_file_count": 0,
+    "stake_files": [],
+    "stake_in_main": true,
+    "last_pow_block": 400000,
+    "repo_updated": "2021-08-02",
+    "gatevia_list": "PoS"
+   }
+  },
+  "YERB": {
+   "cp": "yerb-yerbas",
+   "name": "Yerbas",
+   "categories": [
+    "masternode",
+    "mining"
+   ],
+   "category": "masternode",
+   "website": "https://yerbas.org/",
+   "explorer": "https://explorer.yerbas.org/",
+   "source_code": "https://github.com/The-Yerbas-Endeavor/yerbas",
+   "evidence": {
+    "repo": "https://github.com/The-Yerbas-Endeavor/yerbas",
+    "masternode_files": [
+     "src/evo/cbtx.cpp",
+     "src/evo/cbtx.h"
+    ],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "BTTC": {
+   "cp": "bttc-bittorrent-chain",
+   "name": "BitTorrent Chain",
+   "categories": [
+    "token"
+   ],
+   "category": "token",
+   "website": "https://bt.io/",
+   "explorer": "https://tronscan.org/#/token20/TAFjULxiVgT4qWk6UZwjqwZXTSaGaqnVp4",
+   "source_code": null,
+   "evidence": {
+    "rule": "sem blockchain própria (token)",
+    "source": "coinpaprika"
+   }
+  },
+  "BC2": {
+   "cp": "bc2-bitcoin-ii",
+   "name": "Bitcoin II",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://bitcoin-ii.org",
+   "explorer": "https://bc2.altcoinspool.cc/",
+   "source_code": "https://github.com/Bitcoin-II/BitcoinII-Core",
+   "evidence": {
+    "repo": "https://github.com/Bitcoin-II/BitcoinII-Core",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "BUL": {
+   "cp": null,
+   "name": "Bullion256",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": null,
+   "explorer": "https://explorer.bullion256.org",
+   "source_code": "https://github.com/Bullion256/bullion256",
+   "evidence": {
+    "repo": "https://github.com/Bullion256/bullion256",
+    "masternode_files": [],
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "gatevia_list": "PoW"
+   }
+  },
+  "AGU": {
+   "cp": null,
+   "name": "Agouti",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://agouti.io/",
+   "explorer": "https://explorer.agouti.io/",
+   "source_code": "https://github.com/AgoutiCoin/agouti",
+   "evidence": {
+    "repo": "https://github.com/AgoutiCoin/agouti",
+    "branch": "master",
+    "masternode_files": [
+     "src/activemasternode.cpp",
+     "src/activemasternode.h",
+     "src/masternode-budget.cpp"
+    ],
+    "masternode_file_count": 24,
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h"
+    ],
+    "stake_in_main": true,
+    "last_pow_block": 500,
+    "repo_updated": "2026-06-12"
+   }
+  },
+  "LHC": {
+   "cp": null,
+   "name": "Lightcoin",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://light-coin.org/",
+   "explorer": "http://45.32.222.184/",
+   "source_code": "https://github.com/Lightcoindev/Lightcoin",
+   "evidence": {
+    "repo": "https://github.com/Lightcoindev/Lightcoin",
+    "branch": "main",
+    "masternode_files": [
+     "src/activemasternode.cpp",
+     "src/activemasternode.h",
+     "src/masternode-budget.cpp"
+    ],
+    "masternode_file_count": 23,
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h",
+     "src/legacy/stakemodifier.cpp"
+    ],
+    "stake_in_main": true,
+    "last_pow_block": null,
+    "repo_updated": "2021-06-08"
+   }
+  },
+  "NS": {
+   "cp": null,
+   "name": "Nodestats",
+   "categories": [
+    "masternode",
+    "stake"
+   ],
+   "category": "masternode",
+   "website": "https://nodestats.info/",
+   "explorer": "https://explorer.nodestats.info/",
+   "source_code": "https://github.com/NODESTATS-NS/nodestats",
+   "evidence": {
+    "repo": "https://github.com/NODESTATS-NS/nodestats",
+    "branch": "main",
+    "masternode_files": [
+     "src/activemasternode.cpp",
+     "src/activemasternode.h",
+     "src/masternode-budget.cpp"
+    ],
+    "masternode_file_count": 23,
+    "stake_files": [
+     "src/kernel.cpp",
+     "src/kernel.h",
+     "src/legacy/stakemodifier.cpp"
+    ],
+    "stake_in_main": true,
+    "last_pow_block": null,
+    "repo_updated": "2023-10-07"
+   }
+  },
+  "OMEGA": {
+   "cp": null,
+   "name": "Omega Blockchain",
+   "categories": [
+    "masternode",
+    "mining"
+   ],
+   "category": "masternode",
+   "website": "http://omegablockchain.net/",
+   "explorer": "https://explorer.omegablockchain.net/",
+   "source_code": "https://github.com/OmegaBlockchain/omegacoin",
+   "evidence": {
+    "repo": "https://github.com/OmegaBlockchain/omegacoin",
+    "branch": "master",
+    "masternode_files": [
+     "src/evo/cbtx.cpp",
+     "src/evo/cbtx.h",
+     "src/evo/deterministicmns.cpp"
+    ],
+    "masternode_file_count": 77,
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "repo_updated": "2026-07-02"
+   }
+  },
+  "BELL": {
+   "cp": null,
+   "name": "Bellcoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://bellcoin.web4u.jp/",
+   "explorer": "https://blockbook-bellcoin.web4u.jp/",
+   "source_code": "https://github.com/bellcoin-org/bellcoin",
+   "evidence": {
+    "repo": "https://github.com/bellcoin-org/bellcoin",
+    "branch": "master",
+    "masternode_files": [],
+    "masternode_file_count": 0,
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "repo_updated": "2023-03-18"
+   }
+  },
+  "TUX": {
+   "cp": null,
+   "name": "Tuxcoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://tuxcoin.io/",
+   "explorer": "http://explore.tuxtoke.life/",
+   "source_code": "https://github.com/bleach86/tuxcoin-V2",
+   "evidence": {
+    "repo": "https://github.com/bleach86/tuxcoin-V2",
+    "branch": "master",
+    "masternode_files": [],
+    "masternode_file_count": 0,
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "repo_updated": "2021-12-03"
+   }
+  },
+  "OXC": {
+   "cp": null,
+   "name": "Ordexcoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": null,
+   "explorer": "https://explorer.ordexcoin.com",
+   "source_code": "https://github.com/OrdexNetwork/OrdexCoin",
+   "evidence": {
+    "repo": "https://github.com/OrdexNetwork/OrdexCoin",
+    "branch": "main",
+    "masternode_files": [],
+    "masternode_file_count": 0,
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "repo_updated": "2026-08-29",
+    "gatevia_list": "PoW"
+   }
+  },
+  "PI": {
+   "cp": null,
+   "name": "Picoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://www.picoin.science",
+   "explorer": "https://www.picoin.science/explorer.html",
+   "source_code": "https://github.com/devcoffeecoin/PICOIN",
+   "evidence": {
+    "rule": "site oficial: Proof of Pi, mineradores calculam pi (rede própria)",
+    "source": "site oficial / Qutrade coin info"
+   }
+  },
+  "AETH": {
+   "cp": null,
+   "name": "Aetheris",
+   "categories": [
+    "stake",
+    "mining"
+   ],
+   "category": "stake",
+   "website": "https://aetherischain.com",
+   "explorer": "http://aetherischain.net/",
+   "source_code": null,
+   "evidence": {
+    "rule": "site oficial: \"Scrypt PoW + PoS Blockchain\"",
+    "source": "site oficial / Qutrade coin info"
+   }
+  },
+  "STK": {
+   "cp": null,
+   "name": "Stakecoin",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://www.stakecoin.store/",
+   "explorer": "https://chainz.cryptoid.info/stk/#",
+   "source_code": null,
+   "evidence": {
+    "rule": "site oficial: \"community-driven Proof-of-Stake blockchain\"",
+    "source": "site oficial / Qutrade coin info"
+   }
+  },
+  "SOLEN": {
+   "cp": null,
+   "name": "Solen",
+   "categories": [
+    "stake"
+   ],
+   "category": "stake",
+   "website": "https://solenchain.io",
+   "explorer": "https://solenscan.io",
+   "source_code": "https://github.com/Solen-Blockchain/solen",
+   "evidence": {
+    "rule": "site oficial: rede própria com staking",
+    "source": "site oficial / Qutrade coin info"
+   }
+  },
+  "WDC": {
+   "cp": null,
+   "name": "Worldcoin",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": "https://www.worldcoin.global/",
+   "explorer": "https://chainz.cryptoid.info/wdc/#",
+   "source_code": null,
+   "evidence": {
+    "rule": "site oficial com seção Mining; nó WorldcoinCore 0.17.1 (rede própria)",
+    "source": "site oficial / Qutrade coin info"
+   }
+  },
+  "LPS": {
+   "cp": null,
+   "name": "Loveplaysex",
+   "categories": [
+    "token"
+   ],
+   "category": "token",
+   "website": "https://loveplay.my.canva.site/",
+   "explorer": "https://bscscan.com/token/0x4f2c8449c6518fadf8e16ff0df2efacb13614b71",
+   "source_code": null,
+   "evidence": {
+    "rule": "Qutrade: token BEP-20",
+    "source": "site oficial / Qutrade coin info"
+   }
+  },
+  "LS": {
+   "cp": null,
+   "name": "Liquidity shares",
+   "categories": [
+    "token"
+   ],
+   "category": "token",
+   "website": "https://qutrade.io/",
+   "explorer": null,
+   "source_code": null,
+   "evidence": {
+    "rule": "Qutrade: Liquidity shares (ativo interno da exchange)",
+    "source": "site oficial / Qutrade coin info"
+   }
+  },
+  "PACDAO": {
+   "cp": null,
+   "name": "DAO of DeFCon and PAC Community",
+   "categories": [
+    "token"
+   ],
+   "category": "token",
+   "website": "https://app.aragon.org/dao/polygon-mainnet/0x1825FB2b327F9f59C4De6FaBaA77AAb1a24Ee65D/dashboard",
+   "explorer": "https://polygonscan.com/token/0x32ebb69797bb71991f6f5cd13d0a026a40f43496",
+   "source_code": null,
+   "evidence": {
+    "rule": "Qutrade: token do DAO da comunidade DeFCoN/PAC",
+    "source": "site oficial / Qutrade coin info"
+   }
+  },
+  "NOVA": {
+   "cp": null,
+   "name": "Ethernova",
+   "categories": [
+    "mining"
+   ],
+   "category": "mining",
+   "website": null,
+   "explorer": null,
+   "source_code": "https://github.com/EthernovaDev/ethernova-coregeth",
+   "evidence": {
+    "rule": "repositório oficial: \"Core-Geth fork for the Ethernova (NOVA) PoW Ethash network\"",
+    "repo": "https://github.com/EthernovaDev/ethernova-coregeth"
+   }
+  },
+  "SMOKE": {
+   "cp": null,
+   "name": "Smoke",
+   "categories": [
+    "stake",
+    "mining"
+   ],
+   "category": "stake",
+   "website": "https://cannacoin.org",
+   "explorer": "https://zalmex.online/explorer/SMOKE",
+   "source_code": "https://github.com/cannacoin-official/smoke",
+   "evidence": {
+    "repo": "https://github.com/cannacoin-official/smoke",
+    "branch": "main",
+    "masternode_files": [],
+    "masternode_file_count": 0,
+    "stake_files": [
+     "src/pos.cpp",
+     "src/pos.h"
+    ],
+    "stake_in_main": true,
+    "last_pow_block": 2102400,
+    "repo_updated": "2026-09-19",
+    "gatevia_list": "PoS + PoW"
+   }
+  },
+  "CS": {
+   "cp": null,
+   "name": "CS Coin (Cloud Service)",
+   "categories": [
+    "masternode",
+    "mining"
+   ],
+   "category": "masternode",
+   "website": "https://cscloudservice.com/",
+   "explorer": "https://explorer.cscloudservice.com",
+   "source_code": "https://github.com/MauricioSpagnol/cloudservice",
+   "evidence": {
+    "repo": "https://github.com/MauricioSpagnol/cloudservice",
+    "branch": "main",
+    "masternode_files": [
+     "src/csnode/activecsnode.cpp",
+     "src/csnode/csnode.cpp"
+    ],
+    "masternode_file_count": 1,
+    "stake_files": [],
+    "stake_in_main": false,
+    "last_pow_block": null,
+    "repo_updated": "2026-08-29",
+    "rule": "fork do Flux: CS Nodes (src/csnode) + PoW ZelHash",
+    "gatevia_list": "PoW"
+   }
+  }
+ },
+ "excluded": {
+  "GVIAT": "fake coin (confirmed by the site owner, 2026-10-01): never list"
+ }
+}

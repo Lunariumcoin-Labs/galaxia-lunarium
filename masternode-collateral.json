@@ -1,0 +1,708 @@
+{
+ "_comment": "Masternode collateral rules read from each coin's official source code (see masternode-collateral.js). Built by tools/build-collateral-registry.js; \"value\" is what the code said when verified.",
+ "coins": {
+  "XLN": {
+   "repo": "Lunariumcoin-Labs/LunariumCoin",
+   "file": "src/masternode.cpp",
+   "rule": "schedule_gt",
+   "section": "CAmount CMasternode::GetMasternodeNodeCollateral",
+   "pattern": "nHeight >\\s*(\\d+)\\) return\\s+(\\d+) \\* COIN",
+   "height": {
+    "route": "/api/network/xln",
+    "field": "blockCount"
+   },
+   "value": {
+    "schedule": [
+     [
+      0,
+      250000
+     ],
+     [
+      340000,
+      300000
+     ],
+     [
+      621701,
+      1000000
+     ]
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "PIVX": {
+   "repo": "PIVX-Project/PIVX",
+   "file": "src/chainparams.cpp",
+   "rule": "tiers",
+   "names": [
+    null
+   ],
+   "pattern": "consensus\\.nMNCollateralAmt = (\\d+) \\* COIN",
+   "value": {
+    "tiers": [
+     {
+      "name": null,
+      "amount": 10000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "MON": {
+   "repo": "MoneyByte/MoneyByteBlockchain",
+   "file": "src/main.h",
+   "rule": "tiers",
+   "names": [
+    null
+   ],
+   "pattern": "GetMNCollateral\\(int nHeight\\) \\{ return (\\d+); \\}",
+   "value": {
+    "tiers": [
+     {
+      "name": null,
+      "amount": 50000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "VIVO": {
+   "repo": "KingricharVD/vivo",
+   "file": "src/evo/dmn_types.h",
+   "rule": "tiers",
+   "names": [
+    "Regular"
+   ],
+   "pattern": "collat_amount = (\\d+) \\* COIN",
+   "extra_tiers": [
+    {
+     "name": "Evo",
+     "amount": 20000,
+     "source": "doc/VIVO_v25_Masternode_EVO_Operator_Guide_v2.pdf"
+    }
+   ],
+   "value": {
+    "tiers": [
+     {
+      "name": "Regular",
+      "amount": 5000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "DASH": {
+   "repo": "dashpay/dash",
+   "file": "src/evo/dmn_types.h",
+   "rule": "tiers",
+   "names": [
+    "Regular",
+    "Evo"
+   ],
+   "pattern": "collat_amount = (\\d+) \\* COIN",
+   "value": {
+    "tiers": [
+     {
+      "name": "Regular",
+      "amount": 1000
+     },
+     {
+      "name": "Evo",
+      "amount": 4000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "DFCN": {
+   "repo": "defcon-project/defcon",
+   "file": "src/chainparams.cpp",
+   "rule": "tiers",
+   "names": [
+    "Regular",
+    "Evo",
+    "Compute"
+   ],
+   "pattern": "consensus\\.(?:regular|evo|compute)MnCollateral = (\\d+) \\* COIN",
+   "value": {
+    "tiers": [
+     {
+      "name": "Regular",
+      "amount": 1000000
+     },
+     {
+      "name": "Evo",
+      "amount": 4000000
+     },
+     {
+      "name": "Compute",
+      "amount": 4000000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "FBC": {
+   "repo": "didarmetu/Fibercoin",
+   "file": "src/masternode.h",
+   "rule": "tiers",
+   "names": [
+    null
+   ],
+   "pattern": "#define MASTERNODE_COLLATERAL (\\d+)",
+   "value": {
+    "tiers": [
+     {
+      "name": null,
+      "amount": 10000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "FIRO": {
+   "repo": "firoorg/firo",
+   "file": "src/evo/providertx.cpp",
+   "rule": "tiers",
+   "names": [
+    null
+   ],
+   "pattern": "coin\\.out\\.nValue != (\\d+) \\* COIN",
+   "value": {
+    "tiers": [
+     {
+      "name": null,
+      "amount": 1000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "FLUX": {
+   "repo": "RunOnFlux/fluxd",
+   "file": "src/fluxnode/fluxnode.h",
+   "rule": "tiers",
+   "names": [
+    "Cumulus",
+    "Nimbus",
+    "Stratus"
+   ],
+   "pattern": "#define V2_FLUXNODE_COLLAT_\\w+ (\\d+)",
+   "value": {
+    "tiers": [
+     {
+      "name": "Cumulus",
+      "amount": 1000
+     },
+     {
+      "name": "Nimbus",
+      "amount": 12500
+     },
+     {
+      "name": "Stratus",
+      "amount": 40000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "FREED": {
+   "repo": "FreedomCoin-Project/FreedomCoin-Core",
+   "file": "src/chainparams.cpp",
+   "rule": "tiers",
+   "names": [
+    null
+   ],
+   "pattern": "consensus\\.nPNCollateralAmt = (\\d+) \\* COIN",
+   "value": {
+    "tiers": [
+     {
+      "name": null,
+      "amount": 10000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "MARIA": {
+   "repo": "hostmaria/mariacoin",
+   "file": "src/chainparams.cpp",
+   "rule": "tiers",
+   "names": [
+    null
+   ],
+   "pattern": "consensus\\.nMNCollateralAmt = (\\d+) \\* COIN",
+   "value": {
+    "tiers": [
+     {
+      "name": null,
+      "amount": 100000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "N808": {
+   "repo": "didarmetu/New808coin",
+   "file": "src/masternode.h",
+   "rule": "tiers",
+   "names": [
+    null
+   ],
+   "pattern": "#define MASTERNODE_COLLATERAL (\\d+)",
+   "value": {
+    "tiers": [
+     {
+      "name": null,
+      "amount": 25000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "PAC": {
+   "repo": "pacprotocol/pacprotocol",
+   "file": "src/chainparams.cpp",
+   "rule": "tiers",
+   "names": [
+    null
+   ],
+   "pattern": "consensus\\.nMasternodeCollateral = (\\d+) \\* COIN",
+   "value": {
+    "tiers": [
+     {
+      "name": null,
+      "amount": 500000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "PIRATE": {
+   "repo": "piratecash/piratecash",
+   "file": "src/evo/dmn_types.h",
+   "rule": "tiers",
+   "names": [
+    "Regular",
+    "Evo"
+   ],
+   "pattern": "collat_amount = (\\d+) \\* COIN",
+   "value": {
+    "tiers": [
+     {
+      "name": "Regular",
+      "amount": 10000
+     },
+     {
+      "name": "Evo",
+      "amount": 40000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "SCC": {
+   "repo": "stakecube/stakecubecoin-archive",
+   "file": "src/chainparams.cpp",
+   "rule": "tiers",
+   "names": [
+    null
+   ],
+   "pattern": "nRequiredMasternodeCollateral = (\\d+);",
+   "value": {
+    "tiers": [
+     {
+      "name": null,
+      "amount": 1000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "SKYR": {
+   "repo": "SkynetResearchProject/Skyrcoin",
+   "file": "src/masternode.cpp",
+   "rule": "tiers",
+   "names": [
+    null
+   ],
+   "section": "CAmount CMasternode::GetMasternodeNodeCollateral",
+   "pattern": "^\\s*return (\\d+) \\* COIN;",
+   "value": {
+    "tiers": [
+     {
+      "name": null,
+      "amount": 400000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "VQR": {
+   "repo": "cryptadev/vqr",
+   "file": "src/chainparams.cpp",
+   "rule": "tiers",
+   "names": [
+    null
+   ],
+   "pattern": "consensus\\.nMasternodeAmountLock = (\\d+);",
+   "value": {
+    "tiers": [
+     {
+      "name": null,
+      "amount": 400
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "FSC": {
+   "repo": "fsocietychain/fsociety",
+   "file": "src/chainparams.cpp",
+   "rule": "schedule_le",
+   "section": "consensus.nCollaterals = SmartnodeCollaterals(",
+   "section_end": ");",
+   "pattern": "\\{(\\d+|INT_MAX), (\\d+) \\* COIN\\}",
+   "height": "supply",
+   "value": {
+    "schedule": [
+     [
+      88580,
+      700000
+     ],
+     [
+      132580,
+      900000
+     ],
+     [
+      176580,
+      1100000
+     ],
+     [
+      220580,
+      1350000
+     ],
+     [
+      264580,
+      1600000
+     ],
+     [
+      721000,
+      1900000
+     ],
+     [
+      null,
+      10000000
+     ]
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "FXTC": {
+   "repo": "fxtc/fxtc",
+   "file": "src/chainparams.cpp",
+   "rule": "fxtc",
+   "patterns": {
+    "min": "consensus\\.nMasternodeCollateralMinimum = (\\d+);",
+    "max": "consensus\\.nMasternodeCollateralMaximum = (\\d+);",
+    "period": "consensus\\.nMasternodePaymentsIncreasePeriod = (\\d+) \\* (\\d+);"
+   },
+   "height": "supply",
+   "value": {
+    "min": 1000,
+    "max": 100000,
+    "period": 525600
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "SMT": {
+   "repo": "SmartiesCoin/Smartiecoin",
+   "file": "src/evo/dmn_types.h",
+   "rule": "tiers",
+   "names": [
+    "Regular",
+    "Evo"
+   ],
+   "pattern": "collat_amount = (\\d+) \\* COIN",
+   "value": {
+    "tiers": [
+     {
+      "name": "Regular",
+      "amount": 15000
+     },
+     {
+      "name": "Evo",
+      "amount": 75000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "SWAMP": {
+   "repo": "swampcoin/swamp",
+   "file": "src/masternode.cpp",
+   "rule": "tiers",
+   "names": [
+    null
+   ],
+   "pattern": "coin\\.out\\.nValue != (\\d+) \\* COIN",
+   "value": {
+    "tiers": [
+     {
+      "name": null,
+      "amount": 20000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "VECO": {
+   "repo": "vecopay/veco",
+   "file": "src/evo/providertx.cpp",
+   "rule": "tiers",
+   "names": [
+    null
+   ],
+   "pattern": "coin\\.out\\.nValue != (\\d+) \\* COIN",
+   "value": {
+    "tiers": [
+     {
+      "name": null,
+      "amount": 10000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "YERB": {
+   "repo": "The-Yerbas-Endeavor/yerbas",
+   "file": "src/chainparams.cpp",
+   "rule": "schedule_le",
+   "section": "consensus.nCollaterals = SmartnodeCollaterals(",
+   "section_end": ");",
+   "pattern": "\\{(\\d+|INT_MAX), (\\d+) \\* COIN\\}",
+   "height": "supply",
+   "value": {
+    "schedule": [
+     [
+      69420,
+      10000
+     ],
+     [
+      100420,
+      16000
+     ],
+     [
+      200420,
+      22000
+     ],
+     [
+      302420,
+      28000
+     ],
+     [
+      420420,
+      34000
+     ],
+     [
+      1096420,
+      42000
+     ],
+     [
+      1369420,
+      69000
+     ],
+     [
+      null,
+      100000
+     ]
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "AGU": {
+   "repo": "AgoutiCoin/agouti",
+   "file": "src/masternode.cpp",
+   "rule": "tiers",
+   "names": [
+    null
+   ],
+   "pattern": "CTxOut\\((\\d+(?:\\.\\d+)?) \\* COIN, obfuScationPool",
+   "add": 0.01,
+   "value": {
+    "tiers": [
+     {
+      "name": null,
+      "amount": 3000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "LHC": {
+   "repo": "Lightcoindev/Lightcoin",
+   "file": "src/main.h",
+   "rule": "tiers",
+   "names": [
+    null
+   ],
+   "section": "inline int64_t GetMasterNodeCollateral",
+   "pattern": "return (\\d+);",
+   "value": {
+    "tiers": [
+     {
+      "name": null,
+      "amount": 100000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "NS": {
+   "repo": "NODESTATS-NS/nodestats",
+   "file": "src/masternode.cpp",
+   "rule": "schedule_gt",
+   "section": "CAmount CMasternode::GetMasternodeNodeCollateral",
+   "pattern": "nHeight >\\s*(\\d+)\\) return\\s+(\\d+) \\* COIN",
+   "height": "supply",
+   "value": {
+    "schedule": [
+     [
+      0,
+      10000
+     ],
+     [
+      10000,
+      12000
+     ],
+     [
+      30000,
+      14000
+     ],
+     [
+      50000,
+      16000
+     ],
+     [
+      70000,
+      18000
+     ],
+     [
+      90000,
+      20000
+     ],
+     [
+      110000,
+      22000
+     ],
+     [
+      130000,
+      24000
+     ],
+     [
+      150000,
+      26000
+     ],
+     [
+      175000,
+      30000
+     ],
+     [
+      200000,
+      35000
+     ],
+     [
+      225000,
+      40000
+     ],
+     [
+      250000,
+      45000
+     ],
+     [
+      300000,
+      50000
+     ],
+     [
+      400000,
+      60000
+     ],
+     [
+      500000,
+      70000
+     ],
+     [
+      750000,
+      80000
+     ],
+     [
+      1000000,
+      100000
+     ]
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "OMEGA": {
+   "repo": "OmegaBlockchain/omegacoin",
+   "file": "src/evo/dmn_types.h",
+   "rule": "tiers",
+   "names": [
+    "Regular",
+    "Evo"
+   ],
+   "pattern": "collat_amount = (\\d+) \\* COIN",
+   "value": {
+    "tiers": [
+     {
+      "name": "Regular",
+      "amount": 1000
+     },
+     {
+      "name": "Evo",
+      "amount": 10000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "CS": {
+   "repo": "MauricioSpagnol/cloudservice",
+   "file": "src/csnode/csnode.h",
+   "rule": "tiers",
+   "names": [
+    "Proton",
+    "Eletron",
+    "Neutron",
+    "Foton"
+   ],
+   "pattern": "#define V1_CSNODE_COLLAT_\\w+\\s+(\\d+)",
+   "value": {
+    "tiers": [
+     {
+      "name": "Proton",
+      "amount": 10000
+     },
+     {
+      "name": "Eletron",
+      "amount": 25000
+     },
+     {
+      "name": "Neutron",
+      "amount": 100000
+     },
+     {
+      "name": "Foton",
+      "amount": 500000
+     }
+    ]
+   },
+   "verified_at": "2026-10-05T19:57:40.312Z"
+  },
+  "SORA": {
+   "repo": "FromHDDtoSSD/SorachanCoin-qt",
+   "file": "src/masternode/masternode.h",
+   "rule": null,
+   "value": null
+  }
+ }
+}

@@ -1,0 +1,1903 @@
+[
+  {
+    "id": "xln",
+    "symbol": "XLN",
+    "name": "Lunarium Coin - XLN",
+    "category": "masternode",
+    "official_lunarium": true,
+    "network": "native",
+    "contract": null,
+    "logo": "galaxialunarium-logo.png",
+    "network_api": "/api/network/xln",
+    "links": {
+      "website": "https://lunariumcoin.com/",
+      "explorer": "https://explorerxln.com/",
+      "source_code": "https://github.com/Lunariumcoin-Labs/LunariumCoin/releases",
+      "twitter": "https://twitter.com/lunariumcoin/",
+      "discord": "https://discord.gg/wbZ3PVVA7Q",
+      "telegram": "https://t.me/+ctL9XBvKQW42ZGUx"
+    },
+    "markets": [
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "XLN/USDT",
+        "url": "https://lunariumtrade.io/trade/XLN-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=XLN/USDT"
+      },
+      {
+        "exchange": "Gatevia",
+        "type": "CEX",
+        "pair": "XLN/USDT",
+        "url": "https://gatevia.io/exchange/XLN_USDT",
+        "ticker": "/api/ticker/gatevia",
+        "klines": "/api/klines/gatevia",
+        "params": "symbol=XLN_USDT"
+      },
+      {
+        "exchange": "Qutrade",
+        "type": "CEX",
+        "pair": "XLN/USDT",
+        "url": "https://qutrade.io/en/?market=xln_usdt",
+        "ticker": "/api/ticker/qutrade",
+        "klines": "/api/klines/qutrade",
+        "params": "symbol=XLN_USDT"
+      },
+      {
+        "exchange": "Cexius",
+        "type": "CEX",
+        "pair": "XLN/USDT",
+        "url": "https://cexius.com/trade/XLN-USDT",
+        "ticker": "/api/ticker/cexius",
+        "klines": "/api/klines/cexius",
+        "params": "market=XLN-USDT",
+        "when_listed": true
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "XLN/XLNFT",
+        "url": "https://lunariumtrade.io/trade/XLN-XLNFT",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=XLN/XLNFT",
+        "cross": true
+      },
+      {
+        "exchange": "Qutrade",
+        "type": "CEX",
+        "pair": "XLN/XLNFT",
+        "url": "https://qutrade.io/en/?market=xlnft_xln",
+        "ticker": "/api/ticker/qutradecross",
+        "klines": "/api/klines/qutradecross",
+        "params": "pair=XLNFT/XLN&invert=1",
+        "cross": true
+      }
+    ]
+  },
+  {
+    "id": "pivx",
+    "symbol": "PIVX",
+    "name": "PIVX",
+    "category": "masternode",
+    "official_lunarium": false,
+    "network": "native",
+    "contract": null,
+    "logo": "pivx-logo.png",
+    "network_api": "/api/network/pivx",
+    "links": {
+      "website": "https://pivx.org/",
+      "explorer": "https://explorer.pivx.org/",
+      "source_code": "https://github.com/PIVX-Project/PIVX",
+      "twitter": "https://twitter.com/_pivx",
+      "discord": "https://discord.com/invite/jzqVsJd",
+      "telegram": "https://t.me/PIVX_official"
+    },
+    "markets": [
+      {
+        "exchange": "WEEX",
+        "type": "CEX",
+        "pair": "PIVX/USDT",
+        "url": "https://www.weex.com/spot/PIVX-USDT",
+        "ticker": "/api/ticker/weex",
+        "klines": "/api/klines/weex",
+        "params": "symbol=PIVXUSDT"
+      },
+      {
+        "exchange": "MEXC",
+        "type": "CEX",
+        "pair": "PIVX/USDT",
+        "url": "https://www.mexc.com/exchange/PIVX_USDT",
+        "ticker": "/api/ticker/mexc",
+        "klines": "/api/klines/mexc",
+        "params": "symbol=PIVXUSDT"
+      },
+      {
+        "exchange": "Nonkyc.io",
+        "type": "CEX",
+        "pair": "PIVX/USDT",
+        "url": "https://nonkyc.io/market/PIVX_USDT",
+        "ticker": "/api/ticker/nonkyc",
+        "klines": "/api/klines/nonkyc",
+        "params": "symbol=PIVX_USDT"
+      },
+      {
+        "exchange": "CoinEx",
+        "type": "CEX",
+        "pair": "PIVX/USDT",
+        "url": "https://www.coinex.com/en/exchange/pivx-usdt",
+        "ticker": "/api/ticker/coinex",
+        "klines": "/api/klines/coinex",
+        "params": "market=PIVXUSDT"
+      },
+      {
+        "exchange": "Qutrade",
+        "type": "CEX",
+        "pair": "PIVX/USDT",
+        "url": "https://qutrade.io/en/?market=pivx_usdt",
+        "ticker": "/api/ticker/qutrade",
+        "klines": "/api/klines/qutrade",
+        "params": "symbol=PIVX_USDT"
+      }
+    ]
+  },
+  {
+    "id": "mon",
+    "symbol": "MON",
+    "name": "MoneyByte (MON)",
+    "category": "masternode",
+    "official_lunarium": false,
+    "network": "native",
+    "contract": null,
+    "logo": "mon-logo.png",
+    "network_api": "/api/network/mon",
+    "links": {
+      "website": "https://investing.moneybyte.org/",
+      "explorer": "https://moneybyte-explorer.org/",
+      "source_code": "https://github.com/MoneyByte/MoneyByteBlockchain",
+      "twitter": "https://twitter.com/MoneyByteTweets",
+      "discord": "https://discord.gg/wdCffQa",
+      "telegram": "https://t.me/MoneyByte"
+    },
+    "markets": [
+      {
+        "exchange": "Qutrade",
+        "type": "CEX",
+        "pair": "MON/USDT",
+        "url": "https://qutrade.io/en/?market=mon_usdt",
+        "ticker": "/api/ticker/qutrade",
+        "klines": "/api/klines/qutrade",
+        "params": "symbol=MON_USDT"
+      },
+      {
+        "exchange": "NestEx",
+        "type": "CEX",
+        "pair": "MON/USDT",
+        "url": "https://trade.nestex.one/spot/MON_USDT",
+        "ticker": "/api/ticker/nestex",
+        "klines": "/api/klines/nestex",
+        "params": "symbol=MON_USDT"
+      },
+      {
+        "exchange": "StakeCube",
+        "type": "CEX",
+        "pair": "MON/USDT",
+        "url": "https://stakecube.net/app/exchange/MON_USDT",
+        "ticker": "/api/ticker/stakecube",
+        "klines": "/api/klines/stakecube",
+        "params": "market=MON_USDT"
+      }
+    ]
+  },
+  {
+    "id": "ns",
+    "symbol": "NS",
+    "name": "Nodestats (NS)",
+    "category": "masternode",
+    "official_lunarium": false,
+    "network": "native",
+    "contract": null,
+    "logo": "ns-logo.png",
+    "network_api": "/api/network/ns",
+    "links": {
+      "website": "https://nodestats.info/",
+      "explorer": "https://explorer.nodestats.info/",
+      "source_code": "https://github.com/NODESTATS-NS/nodestats",
+      "twitter": "https://twitter.com/StatsNode",
+      "discord": "https://discord.gg/z5UF47xvDz"
+    },
+    "markets": [
+      {
+        "exchange": "Qutrade",
+        "type": "CEX",
+        "pair": "NS/USDT",
+        "url": "https://qutrade.io/en/?market=ns_usdt",
+        "ticker": "/api/ticker/qutrade",
+        "klines": "/api/klines/qutrade",
+        "params": "symbol=NS_USDT"
+      }
+    ]
+  },
+  {
+    "id": "vivo",
+    "symbol": "VIVO",
+    "name": "Vivo (VIVO)",
+    "category": "masternode",
+    "official_lunarium": false,
+    "network": "native",
+    "contract": null,
+    "logo": "vivo-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://vivocoin.net/",
+      "source_code": "https://github.com/KingricharVD/vivo",
+      "twitter": "https://x.com/_VivoProject",
+      "discord": "https://discord.gg/jUC5W2W",
+      "telegram": "https://t.me/VivoProjectOfficial"
+    },
+    "markets": [
+      {
+        "exchange": "NestEx",
+        "type": "CEX",
+        "pair": "VIVO/USDT",
+        "url": "https://trade.nestex.one/spot/VIVO",
+        "ticker": "/api/ticker/nestex",
+        "klines": "/api/klines/nestex",
+        "params": "symbol=VIVO_USDT"
+      },
+      {
+        "exchange": "StakeCube",
+        "type": "CEX",
+        "pair": "VIVO/USDT",
+        "url": "https://stakecube.net/app/exchange/vivo_usdt",
+        "ticker": "/api/ticker/stakecube",
+        "klines": "/api/klines/stakecube",
+        "params": "market=VIVO_USDT"
+      }
+    ]
+  },
+  {
+    "id": "btc",
+    "symbol": "BTC",
+    "name": "Bitcoin (BTC)",
+    "category": "pow",
+    "official_lunarium": false,
+    "network": "Bitcoin · PoW (SHA-256)",
+    "contract": null,
+    "logo": "btc-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://bitcoin.org/",
+      "explorer": "https://blockchair.com/bitcoin",
+      "source_code": "https://github.com/bitcoin/bitcoin",
+      "twitter": "https://x.com/bitcoincoreorg"
+    },
+    "markets": [
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "BTC/USDT",
+        "url": "https://www.binance.com/en/trade/BTC_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=BTCUSDT"
+      },
+      {
+        "exchange": "Coinbase",
+        "type": "CEX",
+        "pair": "BTC/USD",
+        "url": "https://www.coinbase.com/advanced-trade/spot/BTC-USD",
+        "ticker": "/api/ticker/coinbase",
+        "klines": "/api/klines/coinbase",
+        "params": "symbol=BTC-USD"
+      },
+      {
+        "exchange": "OKX",
+        "type": "CEX",
+        "pair": "BTC/USDT",
+        "url": "https://www.okx.com/trade-spot/btc-usdt",
+        "ticker": "/api/ticker/okx",
+        "klines": "/api/klines/okx",
+        "params": "symbol=BTC-USDT"
+      },
+      {
+        "exchange": "Bybit",
+        "type": "CEX",
+        "pair": "BTC/USDT",
+        "url": "https://www.bybit.com/en/trade/spot/BTC/USDT",
+        "ticker": "/api/ticker/bybit",
+        "klines": "/api/klines/bybit",
+        "params": "symbol=BTCUSDT"
+      },
+      {
+        "exchange": "Qutrade",
+        "type": "CEX",
+        "pair": "BTC/USDT",
+        "url": "https://qutrade.io/en/?market=btc_usdt",
+        "ticker": "/api/ticker/qutrade",
+        "klines": "/api/klines/qutrade",
+        "params": "symbol=BTC_USDT"
+      },
+      {
+        "exchange": "MEXC",
+        "type": "CEX",
+        "pair": "BTC/USDT",
+        "url": "https://www.mexc.com/exchange/BTC_USDT",
+        "ticker": "/api/ticker/mexc",
+        "klines": "/api/klines/mexc",
+        "params": "symbol=BTCUSDT"
+      }
+    ]
+  },
+  {
+    "id": "ltc-coin",
+    "symbol": "LTC",
+    "name": "Litecoin (LTC)",
+    "category": "pow",
+    "official_lunarium": false,
+    "network": "Litecoin · PoW (Scrypt)",
+    "contract": null,
+    "logo": "ltc-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://litecoin.org/",
+      "explorer": "https://blockchair.com/litecoin",
+      "source_code": "https://github.com/litecoin-project/litecoin",
+      "twitter": "https://x.com/litecoin"
+    },
+    "markets": [
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "LTC/USDT",
+        "url": "https://www.binance.com/en/trade/LTC_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=LTCUSDT"
+      },
+      {
+        "exchange": "Coinbase",
+        "type": "CEX",
+        "pair": "LTC/USD",
+        "url": "https://www.coinbase.com/advanced-trade/spot/LTC-USD",
+        "ticker": "/api/ticker/coinbase",
+        "klines": "/api/klines/coinbase",
+        "params": "symbol=LTC-USD"
+      },
+      {
+        "exchange": "OKX",
+        "type": "CEX",
+        "pair": "LTC/USDT",
+        "url": "https://www.okx.com/trade-spot/ltc-usdt",
+        "ticker": "/api/ticker/okx",
+        "klines": "/api/klines/okx",
+        "params": "symbol=LTC-USDT"
+      },
+      {
+        "exchange": "Bybit",
+        "type": "CEX",
+        "pair": "LTC/USDT",
+        "url": "https://www.bybit.com/en/trade/spot/LTC/USDT",
+        "ticker": "/api/ticker/bybit",
+        "klines": "/api/klines/bybit",
+        "params": "symbol=LTCUSDT"
+      },
+      {
+        "exchange": "MEXC",
+        "type": "CEX",
+        "pair": "LTC/USDT",
+        "url": "https://www.mexc.com/exchange/LTC_USDT",
+        "ticker": "/api/ticker/mexc",
+        "klines": "/api/klines/mexc",
+        "params": "symbol=LTCUSDT"
+      },
+      {
+        "exchange": "Qutrade",
+        "type": "CEX",
+        "pair": "LTC/USDT",
+        "url": "https://qutrade.io/en/?market=ltc_usdt",
+        "ticker": "/api/ticker/qutrade",
+        "klines": "/api/klines/qutrade",
+        "params": "symbol=LTC_USDT"
+      },
+      {
+        "exchange": "Gatevia",
+        "type": "CEX",
+        "pair": "LTC/USDT",
+        "url": "https://gatevia.io/exchange/LTC_USDT",
+        "ticker": "/api/ticker/gatevia",
+        "klines": "/api/klines/gatevia",
+        "params": "symbol=LTC_USDT"
+      },
+      {
+        "exchange": "Cexius",
+        "type": "CEX",
+        "pair": "LTC/USDT",
+        "url": "https://cexius.com/trade/LTC-USDT",
+        "ticker": "/api/ticker/cexius",
+        "klines": "/api/klines/cexius",
+        "params": "market=LTC-USDT"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "LTC/USDT",
+        "url": "https://lunariumtrade.io/trade/LTC-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=LTC/USDT"
+      }
+    ]
+  },
+  {
+    "id": "doge-coin",
+    "symbol": "DOGE",
+    "name": "Dogecoin (DOGE)",
+    "category": "pow",
+    "official_lunarium": false,
+    "network": "Dogecoin · PoW (Scrypt, AuxPoW)",
+    "contract": null,
+    "logo": "doge-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://dogecoin.com/",
+      "explorer": "https://blockchair.com/dogecoin",
+      "source_code": "https://github.com/dogecoin/dogecoin",
+      "twitter": "https://x.com/dogecoin"
+    },
+    "markets": [
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "DOGE/USDT",
+        "url": "https://www.binance.com/en/trade/DOGE_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=DOGEUSDT"
+      },
+      {
+        "exchange": "Coinbase",
+        "type": "CEX",
+        "pair": "DOGE/USD",
+        "url": "https://www.coinbase.com/advanced-trade/spot/DOGE-USD",
+        "ticker": "/api/ticker/coinbase",
+        "klines": "/api/klines/coinbase",
+        "params": "symbol=DOGE-USD"
+      },
+      {
+        "exchange": "OKX",
+        "type": "CEX",
+        "pair": "DOGE/USDT",
+        "url": "https://www.okx.com/trade-spot/doge-usdt",
+        "ticker": "/api/ticker/okx",
+        "klines": "/api/klines/okx",
+        "params": "symbol=DOGE-USDT"
+      },
+      {
+        "exchange": "Bybit",
+        "type": "CEX",
+        "pair": "DOGE/USDT",
+        "url": "https://www.bybit.com/en/trade/spot/DOGE/USDT",
+        "ticker": "/api/ticker/bybit",
+        "klines": "/api/klines/bybit",
+        "params": "symbol=DOGEUSDT"
+      },
+      {
+        "exchange": "MEXC",
+        "type": "CEX",
+        "pair": "DOGE/USDT",
+        "url": "https://www.mexc.com/exchange/DOGE_USDT",
+        "ticker": "/api/ticker/mexc",
+        "klines": "/api/klines/mexc",
+        "params": "symbol=DOGEUSDT"
+      },
+      {
+        "exchange": "Qutrade",
+        "type": "CEX",
+        "pair": "DOGE/USDT",
+        "url": "https://qutrade.io/en/?market=doge_usdt",
+        "ticker": "/api/ticker/qutrade",
+        "klines": "/api/klines/qutrade",
+        "params": "symbol=DOGE_USDT"
+      },
+      {
+        "exchange": "Gatevia",
+        "type": "CEX",
+        "pair": "DOGE/USDT",
+        "url": "https://gatevia.io/exchange/DOGE_USDT",
+        "ticker": "/api/ticker/gatevia",
+        "klines": "/api/klines/gatevia",
+        "params": "symbol=DOGE_USDT"
+      },
+      {
+        "exchange": "Cexius",
+        "type": "CEX",
+        "pair": "DOGE/USDT",
+        "url": "https://cexius.com/trade/DOGE-USDT",
+        "ticker": "/api/ticker/cexius",
+        "klines": "/api/klines/cexius",
+        "params": "market=DOGE-USDT"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "DOGE/USDT",
+        "url": "https://lunariumtrade.io/trade/DOGE-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=DOGE/USDT"
+      }
+    ]
+  },
+  {
+    "id": "bch",
+    "symbol": "BCH",
+    "name": "Bitcoin Cash (BCH)",
+    "category": "pow",
+    "official_lunarium": false,
+    "network": "Bitcoin Cash · PoW (SHA-256)",
+    "contract": null,
+    "logo": "bch-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://bch.info/",
+      "explorer": "https://blockchair.com/bitcoin-cash",
+      "gitlab": "https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node"
+    },
+    "markets": [
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "BCH/USDT",
+        "url": "https://www.binance.com/en/trade/BCH_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=BCHUSDT"
+      },
+      {
+        "exchange": "Coinbase",
+        "type": "CEX",
+        "pair": "BCH/USD",
+        "url": "https://www.coinbase.com/advanced-trade/spot/BCH-USD",
+        "ticker": "/api/ticker/coinbase",
+        "klines": "/api/klines/coinbase",
+        "params": "symbol=BCH-USD"
+      },
+      {
+        "exchange": "OKX",
+        "type": "CEX",
+        "pair": "BCH/USDT",
+        "url": "https://www.okx.com/trade-spot/bch-usdt",
+        "ticker": "/api/ticker/okx",
+        "klines": "/api/klines/okx",
+        "params": "symbol=BCH-USDT"
+      },
+      {
+        "exchange": "Bybit",
+        "type": "CEX",
+        "pair": "BCH/USDT",
+        "url": "https://www.bybit.com/en/trade/spot/BCH/USDT",
+        "ticker": "/api/ticker/bybit",
+        "klines": "/api/klines/bybit",
+        "params": "symbol=BCHUSDT"
+      },
+      {
+        "exchange": "MEXC",
+        "type": "CEX",
+        "pair": "BCH/USDT",
+        "url": "https://www.mexc.com/exchange/BCH_USDT",
+        "ticker": "/api/ticker/mexc",
+        "klines": "/api/klines/mexc",
+        "params": "symbol=BCHUSDT"
+      },
+      {
+        "exchange": "Gatevia",
+        "type": "CEX",
+        "pair": "BCH/USDT",
+        "url": "https://gatevia.io/exchange/BCH_USDT",
+        "ticker": "/api/ticker/gatevia",
+        "klines": "/api/klines/gatevia",
+        "params": "symbol=BCH_USDT"
+      }
+    ]
+  },
+  {
+    "id": "dash",
+    "symbol": "DASH",
+    "name": "Dash (DASH)",
+    "category": "masternode",
+    "official_lunarium": false,
+    "network": "Dash · PoW (X11) + Masternodes",
+    "contract": null,
+    "logo": "dash-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://www.dash.org/",
+      "explorer": "https://explorer.dash.org/insight/",
+      "source_code": "https://github.com/dashpay/dash",
+      "twitter": "https://x.com/Dashpay"
+    },
+    "markets": [
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "DASH/USDT",
+        "url": "https://www.binance.com/en/trade/DASH_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=DASHUSDT"
+      },
+      {
+        "exchange": "Coinbase",
+        "type": "CEX",
+        "pair": "DASH/USD",
+        "url": "https://www.coinbase.com/advanced-trade/spot/DASH-USD",
+        "ticker": "/api/ticker/coinbase",
+        "klines": "/api/klines/coinbase",
+        "params": "symbol=DASH-USD"
+      },
+      {
+        "exchange": "OKX",
+        "type": "CEX",
+        "pair": "DASH/USDT",
+        "url": "https://www.okx.com/trade-spot/dash-usdt",
+        "ticker": "/api/ticker/okx",
+        "klines": "/api/klines/okx",
+        "params": "symbol=DASH-USDT"
+      },
+      {
+        "exchange": "MEXC",
+        "type": "CEX",
+        "pair": "DASH/USDT",
+        "url": "https://www.mexc.com/exchange/DASH_USDT",
+        "ticker": "/api/ticker/mexc",
+        "klines": "/api/klines/mexc",
+        "params": "symbol=DASHUSDT"
+      },
+      {
+        "exchange": "Qutrade",
+        "type": "CEX",
+        "pair": "DASH/USDT",
+        "url": "https://qutrade.io/en/?market=dash_usdt",
+        "ticker": "/api/ticker/qutrade",
+        "klines": "/api/klines/qutrade",
+        "params": "symbol=DASH_USDT"
+      }
+    ]
+  },
+  {
+    "id": "eth-coin",
+    "symbol": "ETH",
+    "name": "Ethereum (ETH)",
+    "category": "stake",
+    "official_lunarium": false,
+    "network": "Ethereum · Proof of Stake",
+    "contract": null,
+    "logo": "eth-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://ethereum.org/",
+      "explorer": "https://etherscan.io/",
+      "source_code": "https://github.com/ethereum/go-ethereum",
+      "twitter": "https://x.com/ethereum"
+    },
+    "markets": [
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "ETH/USDT",
+        "url": "https://www.binance.com/en/trade/ETH_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=ETHUSDT"
+      },
+      {
+        "exchange": "Coinbase",
+        "type": "CEX",
+        "pair": "ETH/USD",
+        "url": "https://www.coinbase.com/advanced-trade/spot/ETH-USD",
+        "ticker": "/api/ticker/coinbase",
+        "klines": "/api/klines/coinbase",
+        "params": "symbol=ETH-USD"
+      },
+      {
+        "exchange": "OKX",
+        "type": "CEX",
+        "pair": "ETH/USDT",
+        "url": "https://www.okx.com/trade-spot/eth-usdt",
+        "ticker": "/api/ticker/okx",
+        "klines": "/api/klines/okx",
+        "params": "symbol=ETH-USDT"
+      },
+      {
+        "exchange": "Bybit",
+        "type": "CEX",
+        "pair": "ETH/USDT",
+        "url": "https://www.bybit.com/en/trade/spot/ETH/USDT",
+        "ticker": "/api/ticker/bybit",
+        "klines": "/api/klines/bybit",
+        "params": "symbol=ETHUSDT"
+      },
+      {
+        "exchange": "MEXC",
+        "type": "CEX",
+        "pair": "ETH/USDT",
+        "url": "https://www.mexc.com/exchange/ETH_USDT",
+        "ticker": "/api/ticker/mexc",
+        "klines": "/api/klines/mexc",
+        "params": "symbol=ETHUSDT"
+      },
+      {
+        "exchange": "Qutrade",
+        "type": "CEX",
+        "pair": "ETH/USDT",
+        "url": "https://qutrade.io/en/?market=eth_usdt",
+        "ticker": "/api/ticker/qutrade",
+        "klines": "/api/klines/qutrade",
+        "params": "symbol=ETH_USDT"
+      },
+      {
+        "exchange": "Gatevia",
+        "type": "CEX",
+        "pair": "ETH/USDT",
+        "url": "https://gatevia.io/exchange/ETH_USDT",
+        "ticker": "/api/ticker/gatevia",
+        "klines": "/api/klines/gatevia",
+        "params": "symbol=ETH_USDT"
+      },
+      {
+        "exchange": "Cexius",
+        "type": "CEX",
+        "pair": "ETH/USDT",
+        "url": "https://cexius.com/trade/ETH-USDT",
+        "ticker": "/api/ticker/cexius",
+        "klines": "/api/klines/cexius",
+        "params": "market=ETH-USDT"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "ETH/USDT",
+        "url": "https://lunariumtrade.io/trade/ETH-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=ETH/USDT"
+      }
+    ]
+  },
+  {
+    "id": "bnb",
+    "symbol": "BNB",
+    "name": "BNB (BNB)",
+    "category": "stake",
+    "official_lunarium": false,
+    "network": "BNB Smart Chain · Proof of Staked Authority",
+    "contract": null,
+    "logo": "bnb-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://www.bnbchain.org/",
+      "explorer": "https://bscscan.com/",
+      "source_code": "https://github.com/bnb-chain/bsc",
+      "twitter": "https://x.com/BNBCHAIN"
+    },
+    "markets": [
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "BNB/USDT",
+        "url": "https://www.binance.com/en/trade/BNB_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=BNBUSDT"
+      },
+      {
+        "exchange": "Coinbase",
+        "type": "CEX",
+        "pair": "BNB/USD",
+        "url": "https://www.coinbase.com/advanced-trade/spot/BNB-USD",
+        "ticker": "/api/ticker/coinbase",
+        "klines": "/api/klines/coinbase",
+        "params": "symbol=BNB-USD"
+      },
+      {
+        "exchange": "OKX",
+        "type": "CEX",
+        "pair": "BNB/USDT",
+        "url": "https://www.okx.com/trade-spot/bnb-usdt",
+        "ticker": "/api/ticker/okx",
+        "klines": "/api/klines/okx",
+        "params": "symbol=BNB-USDT"
+      },
+      {
+        "exchange": "Bybit",
+        "type": "CEX",
+        "pair": "BNB/USDT",
+        "url": "https://www.bybit.com/en/trade/spot/BNB/USDT",
+        "ticker": "/api/ticker/bybit",
+        "klines": "/api/klines/bybit",
+        "params": "symbol=BNBUSDT"
+      },
+      {
+        "exchange": "MEXC",
+        "type": "CEX",
+        "pair": "BNB/USDT",
+        "url": "https://www.mexc.com/exchange/BNB_USDT",
+        "ticker": "/api/ticker/mexc",
+        "klines": "/api/klines/mexc",
+        "params": "symbol=BNBUSDT"
+      },
+      {
+        "exchange": "WEEX",
+        "type": "CEX",
+        "pair": "BNB/USDT",
+        "url": "https://www.weex.com/spot/BNB-USDT",
+        "ticker": "/api/ticker/weex",
+        "klines": "/api/klines/weex",
+        "params": "symbol=BNBUSDT"
+      },
+      {
+        "exchange": "Qutrade",
+        "type": "CEX",
+        "pair": "BNB/USDT",
+        "url": "https://qutrade.io/en/?market=bnb_usdt",
+        "ticker": "/api/ticker/qutrade",
+        "klines": "/api/klines/qutrade",
+        "params": "symbol=BNB_USDT"
+      },
+      {
+        "exchange": "Gatevia",
+        "type": "CEX",
+        "pair": "BNB/USDT",
+        "url": "https://gatevia.io/exchange/BNB_USDT",
+        "ticker": "/api/ticker/gatevia",
+        "klines": "/api/klines/gatevia",
+        "params": "symbol=BNB_USDT"
+      },
+      {
+        "exchange": "Cexius",
+        "type": "CEX",
+        "pair": "BNB/USDT",
+        "url": "https://cexius.com/trade/BNB-USDT",
+        "ticker": "/api/ticker/cexius",
+        "klines": "/api/klines/cexius",
+        "params": "market=BNB-USDT"
+      }
+    ]
+  },
+  {
+    "id": "sol",
+    "symbol": "SOL",
+    "name": "Solana (SOL)",
+    "category": "stake",
+    "official_lunarium": false,
+    "network": "Solana · Proof of Stake",
+    "contract": null,
+    "logo": "sol-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://solana.com/",
+      "explorer": "https://explorer.solana.com/",
+      "source_code": "https://github.com/anza-xyz/agave",
+      "twitter": "https://x.com/solana"
+    },
+    "markets": [
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "SOL/USDT",
+        "url": "https://www.binance.com/en/trade/SOL_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=SOLUSDT"
+      },
+      {
+        "exchange": "Coinbase",
+        "type": "CEX",
+        "pair": "SOL/USD",
+        "url": "https://www.coinbase.com/advanced-trade/spot/SOL-USD",
+        "ticker": "/api/ticker/coinbase",
+        "klines": "/api/klines/coinbase",
+        "params": "symbol=SOL-USD"
+      },
+      {
+        "exchange": "OKX",
+        "type": "CEX",
+        "pair": "SOL/USDT",
+        "url": "https://www.okx.com/trade-spot/sol-usdt",
+        "ticker": "/api/ticker/okx",
+        "klines": "/api/klines/okx",
+        "params": "symbol=SOL-USDT"
+      },
+      {
+        "exchange": "Bybit",
+        "type": "CEX",
+        "pair": "SOL/USDT",
+        "url": "https://www.bybit.com/en/trade/spot/SOL/USDT",
+        "ticker": "/api/ticker/bybit",
+        "klines": "/api/klines/bybit",
+        "params": "symbol=SOLUSDT"
+      },
+      {
+        "exchange": "MEXC",
+        "type": "CEX",
+        "pair": "SOL/USDT",
+        "url": "https://www.mexc.com/exchange/SOL_USDT",
+        "ticker": "/api/ticker/mexc",
+        "klines": "/api/klines/mexc",
+        "params": "symbol=SOLUSDT"
+      },
+      {
+        "exchange": "WEEX",
+        "type": "CEX",
+        "pair": "SOL/USDT",
+        "url": "https://www.weex.com/spot/SOL-USDT",
+        "ticker": "/api/ticker/weex",
+        "klines": "/api/klines/weex",
+        "params": "symbol=SOLUSDT"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "SOL/USDT",
+        "url": "https://lunariumtrade.io/trade/SOL-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=SOL/USDT"
+      }
+    ]
+  },
+  {
+    "id": "xlnft",
+    "symbol": "XLNFT",
+    "name": "Lunarium Finance (XLNFT)",
+    "category": "token",
+    "official_lunarium": true,
+    "network": "BNB Smart Chain (BEP-20)",
+    "contract": "0x5a6625B65a917c872ceEc781B6c4419F6aBc8A48",
+    "logo": "xlnft-logo.png",
+    "network_api": "/api/network/xlnft",
+    "links": {
+      "website": "https://lunariumcoin.com/XLNFT-Finance/",
+      "contract": "https://bscscan.com/token/0x5a6625B65a917c872ceEc781B6c4419F6aBc8A48",
+      "source_code": "https://github.com/Lunariumcoin-Labs/XLNFT",
+      "lunarium_labs": "https://github.com/Lunariumcoin-Labs"
+    },
+    "markets": [
+      {
+        "exchange": "PancakeSwap",
+        "type": "DEX",
+        "pair": "XLNFT",
+        "url": "https://pancakeswap.finance/swap?outputCurrency=0x5a6625B65a917c872ceEc781B6c4419F6aBc8A48",
+        "ticker": "/api/ticker/geckoterminal",
+        "klines": "/api/klines/geckoterminal",
+        "params": "token=0x5a6625B65a917c872ceEc781B6c4419F6aBc8A48"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "XLNFT/USDT",
+        "url": "https://lunariumtrade.io/trade/XLNFT-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=XLNFT/USDT"
+      },
+      {
+        "exchange": "Binance Web3",
+        "type": "DEX",
+        "pair": "XLNFT/USDT",
+        "url": "https://web3.binance.com/token/bsc/0x5a6625b65a917c872ceec781b6c4419f6abc8a48?ref=DZPI0SI1",
+        "ticker": "/api/ticker/binanceweb3",
+        "klines": "/api/klines/binanceweb3",
+        "params": "token=0x5a6625B65a917c872ceEc781B6c4419F6aBc8A48"
+      },
+      {
+        "exchange": "MEXC DEX",
+        "type": "DEX",
+        "pair": "XLNFT/USDT",
+        "url": "https://www.mexc.com/dex/onchain/bsc/0x5a6625b65a917c872ceec781b6c4419f6abc8a48",
+        "ticker": "/api/ticker/mexcdex",
+        "klines": "/api/klines/mexcdex",
+        "params": "token=0x5a6625b65a917c872ceec781b6c4419f6abc8a48"
+      },
+      {
+        "exchange": "Bitget Onchain",
+        "type": "DEX",
+        "pair": "XLNFT/USDT",
+        "url": "https://www.bitget.com/on-chain/bnb/0x5a6625b65a917c872ceec781b6c4419f6abc8a48",
+        "ticker": "/api/ticker/bitgetonchain",
+        "klines": "/api/klines/bitgetonchain",
+        "params": "token=0x5a6625b65a917c872ceec781b6c4419f6abc8a48"
+      },
+      {
+        "exchange": "GeckoTerminal",
+        "type": "DEX",
+        "pair": "XLNFT/USDT",
+        "url": "https://www.geckoterminal.com/bsc/pools/0x66a9638e23c6e48c35d8def0fb311a6dc8a77b69",
+        "ticker": "/api/ticker/gtref",
+        "klines": "/api/klines/gtref",
+        "params": "pool=0x66a9638e23c6e48c35d8def0fb311a6dc8a77b69"
+      },
+      {
+        "exchange": "CoinMarketCap DEX",
+        "type": "DEX",
+        "pair": "XLNFT/USDT",
+        "url": "https://dex.coinmarketcap.com/token/bsc/0x5a6625b65a917c872ceec781b6c4419f6abc8a48/",
+        "ticker": "/api/ticker/gtref",
+        "klines": "/api/klines/gtref",
+        "params": "pool=0x66a9638e23c6e48c35d8def0fb311a6dc8a77b69"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "XLNFT/XLN",
+        "url": "https://lunariumtrade.io/trade/XLN-XLNFT",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=XLN/XLNFT&invert=1",
+        "cross": true
+      },
+      {
+        "exchange": "Qutrade",
+        "type": "CEX",
+        "pair": "XLNFT/USDT",
+        "url": "https://qutrade.io/en/?market=xlnft_usdt",
+        "ticker": "/api/ticker/qutrade",
+        "klines": "/api/klines/qutrade",
+        "params": "symbol=XLNFT_USDT"
+      },
+      {
+        "exchange": "Qutrade",
+        "type": "CEX",
+        "pair": "XLNFT/XLN",
+        "url": "https://qutrade.io/en/?market=xlnft_xln",
+        "ticker": "/api/ticker/qutradecross",
+        "klines": "/api/klines/qutradecross",
+        "params": "pair=XLNFT/XLN",
+        "cross": true
+      }
+    ]
+  },
+  {
+    "id": "s11",
+    "symbol": "S11",
+    "name": "QTShares (S11)",
+    "category": "token",
+    "official_lunarium": false,
+    "network": "BNB Smart Chain (BEP-20)",
+    "contract": "0x660c3b98310b48c2f6eceff1cc39265a82c67eb6",
+    "logo": "s11-logo.png",
+    "network_api": null,
+    "links": {
+      "s11qutradeissuerlabel": "https://qutrade.io/ru/?qtshares",
+      "s11tradeonqutradelabel": "https://qutrade.io/en/?market=s11_usdt",
+      "lunariumtrade": "https://lunariumtrade.io/trade/S11-USDT",
+      "contract": "https://bscscan.com/token/0x660c3b98310b48c2f6eceff1cc39265a82c67eb6"
+    },
+    "markets": [
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "S11/USDT",
+        "url": "https://lunariumtrade.io/trade/S11-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=S11/USDT"
+      },
+      {
+        "exchange": "Qutrade",
+        "type": "CEX",
+        "pair": "S11/USDT",
+        "url": "https://qutrade.io/en/?market=s11_usdt",
+        "ticker": "/api/ticker/qutrade",
+        "klines": "/api/klines/qutrade",
+        "params": "symbol=s11_usdt"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "S11/XLN",
+        "url": "https://lunariumtrade.io/trade/S11-XLN",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=S11/XLN",
+        "cross": true
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "S11/XLNFT",
+        "url": "https://lunariumtrade.io/trade/S11-XLNFT",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=S11/XLNFT",
+        "cross": true
+      }
+    ]
+  },
+  {
+    "id": "gvia",
+    "symbol": "GVIA",
+    "name": "GateviaCoin (GVIA)",
+    "category": "pow",
+    "official_lunarium": false,
+    "network": "native",
+    "contract": null,
+    "logo": "gatevia-logo.png",
+    "network_api": "/api/network/gvia",
+    "links": {
+      "website": "https://gatevia.io/",
+      "explorer": "https://explorer.gatevia.io/",
+      "poollabel": "https://gatevia.io/mining/GVIA",
+      "sourcecodelabel": "https://github.com/gateviaofficial/gateviacoin",
+      "walletwindowslabel": "https://gatevia.io/downloads/wallet_win",
+      "walletlinuxlabel": "https://gatevia.io/downloads/wallet_linux"
+    },
+    "markets": [
+      {
+        "exchange": "Gatevia",
+        "type": "CEX",
+        "pair": "GVIA/USDT",
+        "url": "https://gatevia.io/exchange/GVIA_USDT",
+        "ticker": "/api/ticker/gatevia",
+        "klines": "/api/klines/gatevia",
+        "params": "symbol=GVIA_USDT"
+      }
+    ]
+  },
+  {
+    "id": "adatoken",
+    "symbol": "ADA",
+    "name": "Cardano (ADA)",
+    "category": "token",
+    "official_lunarium": false,
+    "network": "BNB Smart Chain (BEP-20)",
+    "contract": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+    "logo": "ada-logo.jpg",
+    "network_api": null,
+    "links": {
+      "website": "https://cardano.org/",
+      "binance": "https://www.binance.com/en/trade/ADA_USDT",
+      "pancakeswap": "https://pancakeswap.finance/swap?outputCurrency=0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+      "lunariumtrade": "https://lunariumtrade.io/trade/ADA-USDT",
+      "contract": "https://bscscan.com/token/0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47"
+    },
+    "markets": [
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "ADA/USDT",
+        "url": "https://lunariumtrade.io/trade/ADA-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=ADA/USDT"
+      },
+      {
+        "exchange": "PancakeSwap",
+        "type": "DEX",
+        "pair": "ADA/USDT",
+        "url": "https://pancakeswap.finance/swap?outputCurrency=0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+        "ticker": "/api/ticker/geckoterminal",
+        "klines": "/api/klines/geckoterminal",
+        "params": "pool=0x29C5ba7dbB67a4af999a28Cc380AD234FE7C1B86&network=bsc"
+      },
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "ADA/USDT",
+        "url": "https://www.binance.com/en/trade/ADA_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=ADAUSDT"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "ADA/XLN",
+        "url": "https://lunariumtrade.io/trade/ADA-XLN",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=ADA/XLN",
+        "cross": true
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "ADA/XLNFT",
+        "url": "https://lunariumtrade.io/trade/ADA-XLNFT",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=ADA/XLNFT",
+        "cross": true
+      }
+    ]
+  },
+  {
+    "id": "aster",
+    "symbol": "ASTER",
+    "name": "Aster (ASTER)",
+    "category": "token",
+    "official_lunarium": false,
+    "network": "BNB Smart Chain (BEP-20)",
+    "contract": "0x000Ae314E2A2172a039B26378814C252734f556A",
+    "logo": "aster-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://www.asterdex.com/en",
+      "binance": "https://www.binance.com/en/trade/ASTER_USDT",
+      "pancakeswap": "https://pancakeswap.finance/swap?outputCurrency=0x000Ae314E2A2172a039B26378814C252734f556A",
+      "lunariumtrade": "https://lunariumtrade.io/trade/ASTER-USDT",
+      "contract": "https://bscscan.com/token/0x000Ae314E2A2172a039B26378814C252734f556A"
+    },
+    "markets": [
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "ASTER/USDT",
+        "url": "https://lunariumtrade.io/trade/ASTER-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=ASTER/USDT"
+      },
+      {
+        "exchange": "PancakeSwap",
+        "type": "DEX",
+        "pair": "ASTER/USDT",
+        "url": "https://pancakeswap.finance/swap?outputCurrency=0x000Ae314E2A2172a039B26378814C252734f556A",
+        "ticker": "/api/ticker/geckoterminal",
+        "klines": "/api/klines/geckoterminal",
+        "params": "pool=0x7E58f160B5B77b8B24Cd9900C09A3E730215aC47&network=bsc"
+      },
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "ASTER/USDT",
+        "url": "https://www.binance.com/en/trade/ASTER_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=ASTERUSDT"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "ASTER/XLN",
+        "url": "https://lunariumtrade.io/trade/ASTER-XLN",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=ASTER/XLN",
+        "cross": true
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "ASTER/XLNFT",
+        "url": "https://lunariumtrade.io/trade/ASTER-XLNFT",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=ASTER/XLNFT",
+        "cross": true
+      }
+    ]
+  },
+  {
+    "id": "btcb",
+    "symbol": "BTCB",
+    "name": "Bitcoin (BTCB)",
+    "category": "token",
+    "official_lunarium": false,
+    "network": "BNB Smart Chain (BEP-20)",
+    "contract": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+    "logo": "btcb-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://bitcoin.org/",
+      "binance": "https://www.binance.com/en/trade/BTC_USDT",
+      "pancakeswap": "https://pancakeswap.finance/swap?outputCurrency=0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "lunariumtrade": "https://lunariumtrade.io/trade/BTCB-USDT",
+      "contract": "https://bscscan.com/token/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c"
+    },
+    "markets": [
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "BTCB/USDT",
+        "url": "https://lunariumtrade.io/trade/BTCB-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=BTCB/USDT"
+      },
+      {
+        "exchange": "PancakeSwap",
+        "type": "DEX",
+        "pair": "BTCB/WBNB",
+        "url": "https://pancakeswap.finance/swap?outputCurrency=0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "ticker": "/api/ticker/geckoterminal",
+        "klines": "/api/klines/geckoterminal",
+        "params": "pool=0x6bbc40579ad1BBD243895cA0ACB086BB6300d636&network=bsc"
+      },
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "BTC/USDT",
+        "url": "https://www.binance.com/en/trade/BTC_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=BTCUSDT"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "BTCB/XLN",
+        "url": "https://lunariumtrade.io/trade/BTCB-XLN",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=BTCB/XLN",
+        "cross": true
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "BTCB/XLNFT",
+        "url": "https://lunariumtrade.io/trade/BTCB-XLNFT",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=BTCB/XLNFT",
+        "cross": true
+      }
+    ]
+  },
+  {
+    "id": "cake",
+    "symbol": "CAKE",
+    "name": "PancakeSwap (CAKE)",
+    "category": "token",
+    "official_lunarium": false,
+    "network": "BNB Smart Chain (BEP-20)",
+    "contract": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+    "logo": "cake-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://pancakeswap.finance/",
+      "binance": "https://www.binance.com/en/trade/CAKE_USDT",
+      "lunariumtrade": "https://lunariumtrade.io/trade/CAKE-USDT",
+      "contract": "https://bscscan.com/token/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+    },
+    "markets": [
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "CAKE/USDT",
+        "url": "https://lunariumtrade.io/trade/CAKE-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=CAKE/USDT"
+      },
+      {
+        "exchange": "PancakeSwap",
+        "type": "DEX",
+        "pair": "CAKE/WBNB",
+        "url": "https://pancakeswap.finance/swap?outputCurrency=0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+        "ticker": "/api/ticker/geckoterminal",
+        "klines": "/api/klines/geckoterminal",
+        "params": "pool=0xAfB2Da14056725E3BA3a30dD846B6BBbd7886c56&network=bsc"
+      },
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "CAKE/USDT",
+        "url": "https://www.binance.com/en/trade/CAKE_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=CAKEUSDT"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "CAKE/XLN",
+        "url": "https://lunariumtrade.io/trade/CAKE-XLN",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=CAKE/XLN",
+        "cross": true
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "CAKE/XLNFT",
+        "url": "https://lunariumtrade.io/trade/CAKE-XLNFT",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=CAKE/XLNFT",
+        "cross": true
+      }
+    ]
+  },
+  {
+    "id": "doge",
+    "symbol": "DOGE",
+    "name": "Dogecoin (DOGE)",
+    "category": "token",
+    "official_lunarium": false,
+    "network": "BNB Smart Chain (BEP-20)",
+    "contract": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
+    "logo": "doge-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://dogecoin.com/",
+      "binance": "https://www.binance.com/en/trade/DOGE_USDT",
+      "pancakeswap": "https://pancakeswap.finance/swap?outputCurrency=0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
+      "lunariumtrade": "https://lunariumtrade.io/trade/DOGE-USDT",
+      "contract": "https://bscscan.com/token/0xbA2aE424d960c26247Dd6c32edC70B295c744C43"
+    },
+    "markets": [
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "DOGE/USDT",
+        "url": "https://lunariumtrade.io/trade/DOGE-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=DOGE/USDT"
+      },
+      {
+        "exchange": "PancakeSwap",
+        "type": "DEX",
+        "pair": "DOGE/BTCB",
+        "url": "https://pancakeswap.finance/swap?outputCurrency=0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
+        "ticker": "/api/ticker/geckoterminal",
+        "klines": "/api/klines/geckoterminal",
+        "params": "pool=0x353d328eFbEf48b79a570cBc2fdE20F40e9f2063&network=bsc"
+      },
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "DOGE/USDT",
+        "url": "https://www.binance.com/en/trade/DOGE_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=DOGEUSDT"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "DOGE/XLN",
+        "url": "https://lunariumtrade.io/trade/DOGE-XLN",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=DOGE/XLN",
+        "cross": true
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "DOGE/XLNFT",
+        "url": "https://lunariumtrade.io/trade/DOGE-XLNFT",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=DOGE/XLNFT",
+        "cross": true
+      }
+    ]
+  },
+  {
+    "id": "eth",
+    "symbol": "ETH",
+    "name": "Ethereum (ETH)",
+    "category": "token",
+    "official_lunarium": false,
+    "network": "BNB Smart Chain (BEP-20)",
+    "contract": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+    "logo": "eth-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://ethereum.org/",
+      "binance": "https://www.binance.com/en/trade/ETH_USDT",
+      "pancakeswap": "https://pancakeswap.finance/swap?outputCurrency=0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "lunariumtrade": "https://lunariumtrade.io/trade/ETH-USDT",
+      "contract": "https://bscscan.com/token/0x2170Ed0880ac9A755fd29B2688956BD959F933F8"
+    },
+    "markets": [
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "ETH/USDT",
+        "url": "https://lunariumtrade.io/trade/ETH-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=ETH/USDT"
+      },
+      {
+        "exchange": "PancakeSwap",
+        "type": "DEX",
+        "pair": "ETH/WBNB",
+        "url": "https://pancakeswap.finance/swap?outputCurrency=0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "ticker": "/api/ticker/geckoterminal",
+        "klines": "/api/klines/geckoterminal",
+        "params": "pool=0xD0e226f674bBf064f54aB47F42473fF80DB98CBA&network=bsc"
+      },
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "ETH/USDT",
+        "url": "https://www.binance.com/en/trade/ETH_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=ETHUSDT"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "ETH/XLN",
+        "url": "https://lunariumtrade.io/trade/ETH-XLN",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=ETH/XLN",
+        "cross": true
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "ETH/XLNFT",
+        "url": "https://lunariumtrade.io/trade/ETH-XLNFT",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=ETH/XLNFT",
+        "cross": true
+      }
+    ]
+  },
+  {
+    "id": "form",
+    "symbol": "FORM",
+    "name": "Four (FORM)",
+    "category": "token",
+    "official_lunarium": false,
+    "network": "BNB Smart Chain (BEP-20)",
+    "contract": "0x5b73A93b4E5e4f1FD27D8b3F8C97D69908b5E284",
+    "logo": "form-logo.jpg",
+    "network_api": null,
+    "links": {
+      "website": "https://four.meme/",
+      "binance": "https://www.binance.com/en/trade/FORM_USDT",
+      "pancakeswap": "https://pancakeswap.finance/swap?outputCurrency=0x5b73A93b4E5e4f1FD27D8b3F8C97D69908b5E284",
+      "lunariumtrade": "https://lunariumtrade.io/trade/FORM-USDT",
+      "contract": "https://bscscan.com/token/0x5b73A93b4E5e4f1FD27D8b3F8C97D69908b5E284"
+    },
+    "markets": [
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "FORM/USDT",
+        "url": "https://lunariumtrade.io/trade/FORM-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=FORM/USDT"
+      },
+      {
+        "exchange": "PancakeSwap",
+        "type": "DEX",
+        "pair": "FORM/USDT",
+        "url": "https://pancakeswap.finance/swap?outputCurrency=0x5b73A93b4E5e4f1FD27D8b3F8C97D69908b5E284",
+        "ticker": "/api/ticker/geckoterminal",
+        "klines": "/api/klines/geckoterminal",
+        "params": "pool=0x7Cb113B487e025b3a69537fcA579559433240cb5&network=bsc"
+      },
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "FORM/USDT",
+        "url": "https://www.binance.com/en/trade/FORM_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=FORMUSDT"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "FORM/XLN",
+        "url": "https://lunariumtrade.io/trade/FORM-XLN",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=FORM/XLN",
+        "cross": true
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "FORM/XLNFT",
+        "url": "https://lunariumtrade.io/trade/FORM-XLNFT",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=FORM/XLNFT",
+        "cross": true
+      }
+    ]
+  },
+  {
+    "id": "ltc",
+    "symbol": "LTC",
+    "name": "Litecoin (LTC)",
+    "category": "token",
+    "official_lunarium": false,
+    "network": "BNB Smart Chain (BEP-20)",
+    "contract": "0x4338665CBB7B2485A8855A139b75D5e34AB0DB94",
+    "logo": "ltc-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://litecoin.org/",
+      "binance": "https://www.binance.com/en/trade/LTC_USDT",
+      "pancakeswap": "https://pancakeswap.finance/swap?outputCurrency=0x4338665CBB7B2485A8855A139b75D5e34AB0DB94",
+      "lunariumtrade": "https://lunariumtrade.io/trade/LTC-USDT",
+      "contract": "https://bscscan.com/token/0x4338665CBB7B2485A8855A139b75D5e34AB0DB94"
+    },
+    "markets": [
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "LTC/USDT",
+        "url": "https://lunariumtrade.io/trade/LTC-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=LTC/USDT"
+      },
+      {
+        "exchange": "PancakeSwap",
+        "type": "DEX",
+        "pair": "LTC/WBNB",
+        "url": "https://pancakeswap.finance/swap?outputCurrency=0x4338665CBB7B2485A8855A139b75D5e34AB0DB94",
+        "ticker": "/api/ticker/geckoterminal",
+        "klines": "/api/klines/geckoterminal",
+        "params": "pool=0xE3cBe4Dd1BD2F7101f17D586F44bAb944091D383&network=bsc"
+      },
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "LTC/USDT",
+        "url": "https://www.binance.com/en/trade/LTC_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=LTCUSDT"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "LTC/XLN",
+        "url": "https://lunariumtrade.io/trade/LTC-XLN",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=LTC/XLN",
+        "cross": true
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "LTC/XLNFT",
+        "url": "https://lunariumtrade.io/trade/LTC-XLNFT",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=LTC/XLNFT",
+        "cross": true
+      }
+    ]
+  },
+  {
+    "id": "chesstoken",
+    "symbol": "CHESS",
+    "name": "ChessCoin 0.32% (CHESS)",
+    "category": "token",
+    "official_lunarium": false,
+    "network": "BNB Smart Chain (BEP-20)",
+    "contract": "0x9ca5dfa3b0b187d7f53f4ef83ca435a2ec2e4070",
+    "logo": "chess-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://chesscoin032.github.io/",
+      "pancakeswap": "https://pancakeswap.finance/swap?inputCurrency=0x55d398326f99059fF775485246999027B3197955&outputCurrency=0x9ca5dfa3b0b187d7f53f4ef83ca435a2ec2e4070",
+      "lunariumtrade": "https://lunariumtrade.io/trade/CHESS-USDT",
+      "contract": "https://bscscan.com/token/0x9ca5dfa3b0b187d7f53f4ef83ca435a2ec2e4070"
+    },
+    "markets": [
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "CHESS/USDT",
+        "url": "https://lunariumtrade.io/trade/CHESS-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=CHESS/USDT"
+      },
+      {
+        "exchange": "PancakeSwap",
+        "type": "DEX",
+        "pair": "CHESS/USDT",
+        "url": "https://pancakeswap.finance/swap?inputCurrency=0x55d398326f99059fF775485246999027B3197955&outputCurrency=0x9ca5dfa3b0b187d7f53f4ef83ca435a2ec2e4070",
+        "ticker": "/api/ticker/geckoterminal",
+        "klines": "/api/klines/geckoterminal",
+        "params": "pool=0xa2e0345ae1b6f81ed9df55a7a29813b33e618da9"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "CHESS/XLNFT",
+        "url": "https://lunariumtrade.io/trade/CHESS-XLNFT",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=CHESS/XLNFT",
+        "cross": true
+      }
+    ]
+  },
+  {
+    "id": "soltoken",
+    "symbol": "SOL",
+    "name": "Solana (SOL)",
+    "category": "token",
+    "official_lunarium": false,
+    "network": "BNB Smart Chain (BEP-20)",
+    "contract": "0x570A5D26f7765Ecb712C0924E4De545B89fD43dF",
+    "logo": "sol-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://solana.com/",
+      "binance": "https://www.binance.com/en/trade/SOL_USDT",
+      "pancakeswap": "https://pancakeswap.finance/swap?outputCurrency=0x570A5D26f7765Ecb712C0924E4De545B89fD43dF",
+      "lunariumtrade": "https://lunariumtrade.io/trade/SOL-USDT",
+      "contract": "https://bscscan.com/token/0x570A5D26f7765Ecb712C0924E4De545B89fD43dF"
+    },
+    "markets": [
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "SOL/USDT",
+        "url": "https://lunariumtrade.io/trade/SOL-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=SOL/USDT"
+      },
+      {
+        "exchange": "PancakeSwap",
+        "type": "DEX",
+        "pair": "SOL/WBNB",
+        "url": "https://pancakeswap.finance/swap?outputCurrency=0x570A5D26f7765Ecb712C0924E4De545B89fD43dF",
+        "ticker": "/api/ticker/geckoterminal",
+        "klines": "/api/klines/geckoterminal",
+        "params": "pool=0xbffec96e8f3b5058b1817c14e4380758fada01ef&network=bsc"
+      },
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "SOL/USDT",
+        "url": "https://www.binance.com/en/trade/SOL_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=SOLUSDT"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "SOL/XLN",
+        "url": "https://lunariumtrade.io/trade/SOL-XLN",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=SOL/XLN",
+        "cross": true
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "SOL/XLNFT",
+        "url": "https://lunariumtrade.io/trade/SOL-XLNFT",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=SOL/XLNFT",
+        "cross": true
+      }
+    ]
+  },
+  {
+    "id": "usdt",
+    "symbol": "USDT",
+    "name": "Tether USD (USDT)",
+    "category": "token",
+    "official_lunarium": false,
+    "network": "BNB Smart Chain (BEP-20)",
+    "contract": "0x55d398326f99059fF775485246999027B3197955",
+    "logo": "usdt-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://tether.to/",
+      "pancakeswap": "https://pancakeswap.finance/swap?inputCurrency=0x55d398326f99059fF775485246999027B3197955&outputCurrency=0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "contract": "https://bscscan.com/token/0x55d398326f99059fF775485246999027B3197955"
+    },
+    "markets": [
+      {
+        "exchange": "PancakeSwap",
+        "type": "DEX",
+        "pair": "USDT/USDC",
+        "url": "https://pancakeswap.finance/swap?inputCurrency=0x55d398326f99059fF775485246999027B3197955&outputCurrency=0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "ticker": "/api/ticker/geckoterminal",
+        "klines": "/api/klines/geckoterminal",
+        "params": "pool=0x92b7807bF19b7DDdf89b706143896d05228f3121&network=bsc"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "USDT/XLNFT",
+        "url": "https://lunariumtrade.io/trade/USDT-XLNFT",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=USDT/XLNFT",
+        "cross": true
+      }
+    ]
+  },
+  {
+    "id": "xrp",
+    "symbol": "XRP",
+    "name": "XRP",
+    "category": "token",
+    "official_lunarium": false,
+    "network": "BNB Smart Chain (BEP-20)",
+    "contract": "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe",
+    "logo": "xrp-logo.png",
+    "network_api": null,
+    "links": {
+      "website": "https://ripple.com/xrp/",
+      "binance": "https://www.binance.com/en/trade/XRP_USDT",
+      "pancakeswap": "https://pancakeswap.finance/swap?outputCurrency=0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe",
+      "lunariumtrade": "https://lunariumtrade.io/trade/XRP-USDT",
+      "contract": "https://bscscan.com/token/0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe"
+    },
+    "markets": [
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "XRP/USDT",
+        "url": "https://lunariumtrade.io/trade/XRP-USDT",
+        "ticker": "/api/ticker/lunarium",
+        "klines": "/api/klines/lunarium",
+        "params": "pair=XRP/USDT"
+      },
+      {
+        "exchange": "PancakeSwap",
+        "type": "DEX",
+        "pair": "XRP/BTCB",
+        "url": "https://pancakeswap.finance/swap?outputCurrency=0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe",
+        "ticker": "/api/ticker/geckoterminal",
+        "klines": "/api/klines/geckoterminal",
+        "params": "pool=0xe3D9f8eF633666771B7f1995AaEDEB67d1b3c853&network=bsc"
+      },
+      {
+        "exchange": "Binance",
+        "type": "CEX",
+        "pair": "XRP/USDT",
+        "url": "https://www.binance.com/en/trade/XRP_USDT",
+        "ticker": "/api/ticker/binance",
+        "klines": "/api/klines/binance",
+        "params": "symbol=XRPUSDT"
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "XRP/XLN",
+        "url": "https://lunariumtrade.io/trade/XRP-XLN",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=XRP/XLN",
+        "cross": true
+      },
+      {
+        "exchange": "LunariumTrade",
+        "type": "CEX",
+        "pair": "XRP/XLNFT",
+        "url": "https://lunariumtrade.io/trade/XRP-XLNFT",
+        "ticker": "/api/ticker/lunariumcross",
+        "klines": "/api/klines/lunariumcross",
+        "params": "pair=XRP/XLNFT",
+        "cross": true
+      }
+    ]
+  }
+]

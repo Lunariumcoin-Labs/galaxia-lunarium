@@ -1,0 +1,12 @@
+{
+  "name": "galaxialunarium-price-proxy",
+  "version": "1.0.0",
+  "description": "Backend proxy that fetches real klines/tickers from partner exchanges server-side (bypassing browser CORS) for the GalaxiaLunarium aggregator.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
