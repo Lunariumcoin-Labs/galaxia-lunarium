@@ -6543,6 +6543,7 @@ function showDisclaimerModalIfNeeded(){
   };
 }
 
+// replaced by galaxialunarium-visitors.js (v219); kept unused
 function initVisitorCounter(){
   var el = document.getElementById('visitorCountValue');
   if(!el) return;
@@ -7449,9 +7450,9 @@ function renderRankTable(lang){
 var navSig = null, navUrl = null, navRestoring = false, navStartedAt = Date.now();
 var navNativeReplace = history.replaceState.bind(history);
 history.replaceState = function(state, title, url){ return navNativeReplace(state == null ? history.state : state, title, url); };
-var NAV_VIEWS = ['moedas', 'mineracao', 'stake', 'tokens', 'exchanges', 'auditoria', 'documentacao', 'conta', 'favoritos', 'alertas', 'sinteticos', 'ranking'];
+var NAV_VIEWS = ['moedas', 'mineracao', 'stake', 'tokens', 'exchanges', 'auditoria', 'documentacao', 'conta', 'favoritos', 'alertas', 'sinteticos', 'ranking', 'visitantes'];
 var NAV_BTN = { dashboard: 'dashboardBtn', moedas: 'moedasBtn', mineracao: 'mineracaoBtn', stake: 'stakeBtn', tokens: 'tokensBtn', exchanges: 'exchangesBtn', auditoria: 'auditoriaBtn',
-  documentacao: 'docsBtn', conta: 'accountBtn', favoritos: 'favNavBtn', alertas: 'alertsNavBtn', sinteticos: 'synNavBtn', ranking: 'rankingBtn' };
+  documentacao: 'docsBtn', conta: 'accountBtn', favoritos: 'favNavBtn', alertas: 'alertsNavBtn', sinteticos: 'synNavBtn', ranking: 'rankingBtn', visitantes: 'visitorBadge' };
 // what is open right now
 function navState(){
   var view = 'dashboard';
@@ -7469,7 +7470,7 @@ function navState(){
 // The address always says what is open, so a reload (F5) or a shared link opens the same screen: the
 // list screens (masternode, mining, stake, tokens, exchanges list, ranking) get their own ?view=, and the
 // synthetic pair's parameters (base, quote, amount) only stay on the synthetic-pair screen.
-var NAV_URL_VIEWS = ['moedas', 'mineracao', 'stake', 'tokens', 'exchanges', 'ranking'];
+var NAV_URL_VIEWS = ['moedas', 'mineracao', 'stake', 'tokens', 'exchanges', 'ranking', 'visitantes'];
 function navFixUrl(st){
   try{
     var u = new URL(location.href), before = u.toString();
@@ -7601,7 +7602,7 @@ function boot(){
     try{ history.replaceState(null, '', keep); }catch(e){}
   }, 0);
   wireTimeframeTabs();
-  initVisitorCounter();
+  // the visitor badge belongs to galaxialunarium-visitors.js (the explorer's counter) since v219
   initConverter();
   initTheme();
   initMnCollateral();

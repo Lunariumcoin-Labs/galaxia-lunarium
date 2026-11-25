@@ -7,28 +7,8 @@ const app = express();
 require('./security')(app);
 const PORT = process.env.PORT || 3001;
 
-const VISITORS_FILE = path.join(__dirname, 'data', 'visitors.json');
 const AUDIT_HISTORY_FILE = path.join(__dirname, 'data', 'xln-audit-history.json');
 const AUDIT_RECENT_WINDOW_MS = 7 * 24 * 60 * 60 * 1000; // full 20min-resolution kept for the last 7 days
-
-function readVisitorCount() {
-  try {
-    const raw = fs.readFileSync(VISITORS_FILE, 'utf8');
-    const n = JSON.parse(raw).count;
-    return Number.isFinite(n) ? n : 0;
-  } catch (e) {
-    return 0;
-  }
-}
-
-function writeVisitorCount(count) {
-  try {
-    fs.mkdirSync(path.dirname(VISITORS_FILE), { recursive: true });
-    fs.writeFileSync(VISITORS_FILE, JSON.stringify({ count }));
-  } catch (e) {
-    console.error('failed to persist visitor count', e);
-  }
-}
 
 // ---- XLN network audit: real supply vs. the protocol's own emission rule -----------------------
 // Mirrors EXACTLY the emission rule in the LunariumCoin core (src/masternode.cpp: GetBlockValue,
@@ -2603,18 +2583,10 @@ app.get('/api/network/xln-audit', (req, res) => {
   res.json({ ok: true, reading: xlnAuditCache, history: readAuditHistory() });
 });
 
-// Visitor counter shown next to the search field. Persisted to disk so it
-// survives Passenger restarts. The frontend increments once per browser
-// (guarded by localStorage) and just reads the count on every other load.
-app.get('/api/visitors', (req, res) => {
-  res.json({ ok: true, count: readVisitorCount() });
-});
-
-app.get('/api/visitors/increment', (req, res) => {
-  const count = readVisitorCount() + 1;
-  writeVisitorCount(count);
-  res.json({ ok: true, count });
-});
+// Visitor counter (header badge + the Visitors screen): the explorer's model, in visits.js. It also
+// answers the old /api/visitors routes (read only). The old count (data/visitors.json) is not used:
+// the new counter started from zero (owner, 2026-11-25).
+require('./visits')(app);
 
 // FX rates for the sidebar currency converter (BRL/EUR/etc against USD).
 // Cached in memory for 1h since exchange rates barely move and the upstream
